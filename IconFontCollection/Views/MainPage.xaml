@@ -1,0 +1,101 @@
+﻿<Page
+    x:Class="IconFontCollection.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IconFontCollection"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+	RequestedTheme="Light">
+
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<Grid Grid.Row="0">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+			<ToggleButton x:Name="HamburgerButton"
+						  Grid.Column="0"
+						  Style="{StaticResource AppBarToggleButtonStyleKey}"
+						  Content="&#xE700;"/>
+			
+			<Border Grid.Column="1"
+					Style="{StaticResource FrameBorderStyleKey}"
+					Margin="0">
+				<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"
+						   FontSize="{ThemeResource HubSectionHeaderThemeFontSize}"
+						   Foreground="{ThemeResource SystemControlForegroundAccentBrush}"
+						   Text="{Binding Content.Tag, TargetNullValue='IconFont Collection', ElementName=IconFontPageContentFrame}"/>
+			</Border>
+		</Grid>
+
+		<Grid Grid.Row="1">
+			<SplitView x:Name="SplitViewer" 
+					   DisplayMode="Overlay" CompactPaneLength="48" OpenPaneLength="240"
+					   IsPaneOpen="{Binding IsChecked, Mode=TwoWay, ElementName=HamburgerButton}">
+				<SplitView.Pane>
+					<Grid VerticalAlignment="Stretch">
+						<StackPanel VerticalAlignment="Top">
+							<RadioButton x:Name="SwitchIconFontCollectionViewButton"
+										 x:Uid="SwitchCollectionButton"
+										 Style="{StaticResource SplitViewRadioButtonStyleKey}"
+										 GroupName="NavigationMenu" Tag="&#xE80F;"
+										 Click="SwitchIconFontCollectionViewButton_Click"
+										 ToolTipService.ToolTip="{Binding Content, RelativeSource={RelativeSource Self}}"/>
+							<RadioButton x:Name="SwitchIconFontFavoritesViewButton"
+										 x:Uid="SwitchFavoritesButton"
+										 Style="{StaticResource SplitViewRadioButtonStyleKey}"
+										 IsEnabled="{Binding CanSwitchComicView}"
+										 GroupName="NavigationMenu" Tag="&#xE728;"
+										 Click="SwitchIconFontFavoritesViewButton_Click"
+										 ToolTipService.ToolTip="{Binding Content, RelativeSource={RelativeSource Self}}"/>
+						</StackPanel>
+						<StackPanel VerticalAlignment="Bottom">
+							<RadioButton x:Name="SwitchUserGuideButton"
+										 x:Uid="SwitchUserGuideButton"
+										 Style="{StaticResource SplitViewRadioButtonStyleKey}"
+										 GroupName="NavigationMenu" Tag="&#xE897;"
+										 Click="SwitchUserGuideButton_Click"
+										 ToolTipService.ToolTip="{Binding Content, RelativeSource={RelativeSource Self}}"/>
+							<RadioButton x:Name="SwitchSettingAboutButton"
+										 x:Uid="SwitchAppSettingButton"
+										 Style="{StaticResource SplitViewRadioButtonStyleKey}"
+										 GroupName="NavigationMenu" Tag="&#xE713;"
+										 Click="SwitchSettingAboutButton_Click"
+										 ToolTipService.ToolTip="{Binding Content, RelativeSource={RelativeSource Self}}"/>
+						</StackPanel>
+					</Grid>
+				</SplitView.Pane>
+				<Frame x:Name="IconFontPageContentFrame"
+					   Navigated="IconFontPageContentFrame_Navigated"/>
+			</SplitView>
+		</Grid>
+
+		<VisualStateManager.VisualStateGroups>
+			<VisualStateGroup>
+				<VisualState x:Name="WideState">
+					<VisualState.StateTriggers>
+						<AdaptiveTrigger MinWindowWidth="680"/>
+					</VisualState.StateTriggers>
+					<VisualState.Setters>
+						<Setter Target="SplitViewer.DisplayMode" Value="CompactInline"/>
+					</VisualState.Setters>
+				</VisualState>
+				<VisualState x:Name="NarrowState">
+					<VisualState.StateTriggers>
+						<AdaptiveTrigger MinWindowWidth="0"/>
+					</VisualState.StateTriggers>
+					<VisualState.Setters>
+						<Setter Target="SplitViewer.DisplayMode" Value="Inline"/>
+					</VisualState.Setters>
+				</VisualState>
+			</VisualStateGroup>
+		</VisualStateManager.VisualStateGroups>
+	</Grid>
+</Page>

@@ -1,0 +1,109 @@
+﻿<Page
+	x:Uid="AppSettingViewPage"
+    x:Class="IconFontCollection.AppSettingView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IconFontCollection"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+	<Page.DataContext>
+		<local:AppSettingViewModel/>
+	</Page.DataContext>
+
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<Pivot>
+			<PivotItem x:Uid="SettingPivot"
+					   Margin="5">
+				<ScrollViewer Margin="0,25,0,0">
+					<StackPanel>
+						<Border Style="{StaticResource MaterialBorderStyleKey}">
+							<StackPanel Margin="5">
+								<StackPanel Margin="5">
+									<Button x:Uid="ClearAllRegisteredFavorite"
+											Margin="5"
+											Command="{Binding ClearAllFavorites}"/>
+									<TextBlock x:Uid="ClearAllRegisteredFavoriteDescription"
+											   Margin="5"
+											   FontSize="{ThemeResource ContentControlFontSize}"
+											   TextWrapping="Wrap"
+											   Text="Clears all registered favorite IconFonts."/>
+									<Border Margin="20, 5" Style="{StaticResource YellowMaterialBorderStyleKey}">
+
+										<TextBlock Margin="5"
+												   FontSize="{ThemeResource ContentControlFontSize}"
+												   TextWrapping="Wrap">
+											<Run FontWeight="Bold" Foreground="Orange"
+												 Text="Note"/><LineBreak/>
+											<Run x:Uid="ClearAllRegisteredFavoriteNote"/>
+										</TextBlock>
+									</Border>
+								</StackPanel>
+							</StackPanel>
+						</Border>
+					</StackPanel>
+				</ScrollViewer>
+			</PivotItem>
+			<PivotItem x:Uid="AboutPivot"
+					   Margin="5">
+				<ScrollViewer>
+					<StackPanel>
+						<Border Style="{StaticResource MaterialBorderStyleKey}">
+							<StackPanel>
+								<TextBlock x:Uid="AboutAppLabel"
+										   Padding="5" 
+										   FontSize="{ThemeResource ContentControlFontSize}"
+										   TextWrapping="Wrap" Foreground="{ThemeResource SystemControlForegroundAccentBrush}"/>
+								<Image Margin="5" MaxHeight="300"
+									   HorizontalAlignment="Left" VerticalAlignment="Center"
+									   Source="ms-appx:///Assets/SplashScreen.png"/>
+								<TextBlock x:Uid="AppTitle"
+										   Padding="5,5,5,1"  
+										   FontSize="{ThemeResource ListViewHeaderItemThemeFontSize}"
+										   TextWrapping="Wrap" FontWeight="Bold"/>
+								<TextBlock x:Uid="AppDescription"
+										   Padding="5,5,5,3" 
+										   FontSize="{ThemeResource ContentControlFontSize}"
+										   TextWrapping="Wrap"/>
+								<TextBlock Padding="5,5,5,3" 
+										   FontSize="{ThemeResource ContentControlFontSize}"
+										   TextWrapping="Wrap">
+									Version : 
+									<Run FontWeight="Bold"
+										 Text="{Binding CurrentVersion}"/>
+								</TextBlock>
+								<TextBlock Padding="5,5,5,3" 
+										   FontSize="{ThemeResource ContentControlFontSize}"
+										   TextWrapping="Wrap">
+									Developer : <Bold>Nia Tomonaka</Bold> ( 
+									<Hyperlink NavigateUri="https://twitter.com/nia_tn1012">
+										<Run Text="@nia_tn1012"/>
+									</Hyperlink>
+									 )
+								</TextBlock>
+								<Image Margin="5" MaxHeight="128"
+									   HorizontalAlignment="Left" VerticalAlignment="Center"
+									   Source="ms-appx:///Assets/Chronoir-logo.png"/>
+								<TextBlock Padding="5,1,5,5" 
+										   FontSize="{ThemeResource ContentControlFontSize}"
+										   TextWrapping="Wrap">
+									&#x00A9; 2016 Chronoir.net / &#x00A9; 2016 Nia's Atelier<LineBreak/>
+									WebSite :  
+									<Hyperlink NavigateUri="https://chronoir.net/">
+										<Run Text="Chronoir.net"/>
+									</Hyperlink><LineBreak/><LineBreak/>
+									<Run x:Uid="AppLicence"/><LineBreak/>
+									GitHub : 
+									<Hyperlink NavigateUri="https://github.com/Nia-TN1012/SpacomicUniverse">
+										<Run Text="IconFontCollection"/>
+									</Hyperlink>
+								</TextBlock>
+							</StackPanel>
+						</Border>
+					</StackPanel>
+				</ScrollViewer>
+			</PivotItem>
+		</Pivot>
+	</Grid>
+</Page>

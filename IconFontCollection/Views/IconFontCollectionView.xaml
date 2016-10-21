@@ -1,0 +1,240 @@
+﻿<Page
+	x:Name="IconFontCollectionView1"
+	x:Uid="IconFontCollectionViewPage"
+    x:Class="IconFontCollection.IconFontCollectionView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IconFontCollection"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" NavigationCacheMode="Enabled">
+
+	<Page.Resources>
+		<local:ValueToStringFormatConverter x:Key="ValueToStringFormatConverterKey"/>
+		<local:ValueToFontIconGlyphConverter x:Key="ValueToFontIconGlyphConverterKey"/>
+		<local:BoolToFavoriteIconContentConverter x:Key="BoolToFavoriteIconContentConverterKey"/>
+		<local:BoolToFavoriteIconColorConverter x:Key="BoolToFavoriteIconColorConverterKey"/>
+
+		<CollectionViewSource x:Key="IconFontCollectionGroupKey"
+							  ItemsPath="Items" Source="{Binding Items}"
+							  IsSourceGrouped="True"/>
+	</Page.Resources>
+
+	<Page.DataContext>
+		<local:IconFontCollectionViewModel/>
+	</Page.DataContext>
+
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+
+		<SemanticZoom x:Name="IconFontSemantics"
+					  Grid.Row="0" Margin="5"
+					  ViewChangeStarted="SemanticZoom_ViewChangeStarted">
+			<SemanticZoom.ZoomedOutView>
+				<GridView x:Name="IconFontCollectionGroupGridView"
+						  Style="{StaticResource GridViewOnSemanticZoomStyleKey}"
+						  ItemsSource="{Binding Items}">
+					<GridView.ItemContainerStyle>
+						<Style TargetType="GridViewItem">
+							<Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+						</Style>
+					</GridView.ItemContainerStyle>
+					<GridView.ItemsPanel>
+						<ItemsPanelTemplate>
+							<ItemsStackPanel Orientation="Vertical"
+											 HorizontalAlignment="Stretch"/>
+						</ItemsPanelTemplate>
+					</GridView.ItemsPanel>
+					<GridView.ItemTemplate>
+						<DataTemplate>
+							<TextBlock Margin="10,5"
+									   FontSize="{ThemeResource GridViewHeaderItemThemeFontSize}"
+									   Foreground="{ThemeResource SystemControlForegroundAccentBrush}"
+									   Text="{Binding GroupTitle}"/>
+						</DataTemplate>
+					</GridView.ItemTemplate>
+					<GridView.ItemContainerTransitions>
+						<TransitionCollection>
+							<AddDeleteThemeTransition/>
+							<ContentThemeTransition/>
+							<ReorderThemeTransition/>
+							<EntranceThemeTransition IsStaggeringEnabled="False"/>
+						</TransitionCollection>
+					</GridView.ItemContainerTransitions>
+				</GridView>
+			</SemanticZoom.ZoomedOutView>
+			<SemanticZoom.ZoomedInView>
+				<GridView x:Name="IconFontCollectionGridView"
+						  Style="{StaticResource GridViewOnSemanticZoomStyleKey}"
+						  ItemsSource="{Binding Source={StaticResource IconFontCollectionGroupKey}}">
+					<GridView.GroupStyle>
+						<GroupStyle>
+							<GroupStyle.HeaderTemplate>
+								<DataTemplate>
+									<TextBlock Foreground="{ThemeResource SystemControlForegroundAccentBrush}"
+											   Text="{Binding GroupTitle}"/>
+								</DataTemplate>
+							</GroupStyle.HeaderTemplate>
+						</GroupStyle>
+					</GridView.GroupStyle>
+					<GridView.ItemTemplate>
+						<DataTemplate>
+							<Border Style="{StaticResource MaterialBorderStyleForGridViewItemKey}">
+								<Grid>
+									<Grid.RowDefinitions>
+										<RowDefinition Height="*"/>
+										<RowDefinition Height="Auto"/>
+									</Grid.RowDefinitions>
+
+									<Border Grid.Row="0"
+											Style="{StaticResource FrameBorderStyleKey}"
+											Padding="10" Width="80" Height="80">
+										<FontIcon Margin="5"
+												  HorizontalAlignment="Center" VerticalAlignment="Center"
+												  FontFamily="{ThemeResource SymbolThemeFontFamily}"
+												  FontSize="36"
+												  Glyph="{Binding CharacterCode, Converter={StaticResource ValueToFontIconGlyphConverterKey}}"/>
+									</Border>
+									<Grid Grid.Row="1">
+										<Grid.ColumnDefinitions>
+											<ColumnDefinition Width="*"/>
+											<ColumnDefinition Width="Auto"/>
+										</Grid.ColumnDefinitions>
+
+										<TextBlock Grid.Column="0" Padding="10,0"
+												   TextAlignment="Center" VerticalAlignment="Center"
+												   Text="{Binding CodeKey}"/>
+
+										<Button x:Uid="SetFavoriteItem"
+												Grid.Column="1"
+												Style="{StaticResource SetFavoriteButtonStyleKey}"
+												Foreground="{Binding IsFavorite, Converter={StaticResource BoolToFavoriteIconColorConverterKey}}"
+												Content="{Binding IsFavorite, Converter={StaticResource BoolToFavoriteIconContentConverterKey}}"
+												Tag="{Binding CodeKey}"
+												CommandParameter="{Binding Tag, RelativeSource={RelativeSource self}}"
+												Command="{Binding DataContext.SetFavorite, ElementName=IconFontCollectionView1}"/>
+									</Grid>
+								</Grid>
+							</Border>
+						</DataTemplate>
+					</GridView.ItemTemplate>
+					<GridView.ItemContainerTransitions>
+						<TransitionCollection>
+							<AddDeleteThemeTransition/>
+							<ContentThemeTransition/>
+							<ReorderThemeTransition/>
+							<EntranceThemeTransition IsStaggeringEnabled="False"/>
+						</TransitionCollection>
+					</GridView.ItemContainerTransitions>
+				</GridView>
+			</SemanticZoom.ZoomedInView>
+		</SemanticZoom>
+
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto" MinWidth="120"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+
+			<Border Grid.Column="0"
+					Style="{StaticResource MaterialBorderStyleKey}">
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition Height="*"/>
+					</Grid.RowDefinitions>
+
+					<TextBlock x:Uid="IconLabel"
+							   Grid.Row="0"
+							   Style="{StaticResource HeaderLabelTextBlockStyleKey}"/>
+
+					<Border Grid.Row="1"
+							Style="{StaticResource FrameBorderStyleKey}">
+						<FontIcon Grid.Row="1"
+								  Width="120"
+								  HorizontalAlignment="Center" VerticalAlignment="Center"
+								  FontFamily="{ThemeResource SymbolThemeFontFamily}"
+								  FontSize="64"
+								  Glyph="{Binding SelectedItem.CharacterCode, Converter={StaticResource ValueToFontIconGlyphConverterKey}, ElementName=IconFontCollectionGridView}"/>
+					</Border>
+				</Grid>
+			</Border>
+
+			<Border Grid.Column="1"
+					Style="{StaticResource MaterialBorderStyleKey}">
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition Height="*"/>
+					</Grid.RowDefinitions>
+
+					<TextBlock x:Uid="CharacterCodeLabel"
+							   Grid.Row="0"
+							   Style="{StaticResource HeaderLabelTextBlockStyleKey}"/>
+
+					<Grid Grid.Row="1">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
+
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="Auto"/>
+							<ColumnDefinition Width="*"/>
+							<ColumnDefinition Width="Auto"/>
+						</Grid.ColumnDefinitions>
+
+						<TextBlock x:Name="CharacterCodeOriginalValue"
+								   x:Uid="OriginalValueLabel"
+								   Grid.Row="0" Grid.Column="0"
+								   Style="{StaticResource LabelTextBlockStyleKey}"
+								   Tag="{Binding SelectedItem.CharacterCode, Converter={StaticResource ValueToStringFormatConverterKey}, ConverterParameter='0x{0:X4}', ElementName=IconFontCollectionGridView}"/>
+						<TextBox Grid.Row="0" Grid.Column="1"
+								 Style="{StaticResource ReadOnlyTextBoxStyleKey}"
+								 Text="{Binding Tag, ElementName=CharacterCodeOriginalValue}"/>
+						<Button x:Uid="CopyClipboardButton"
+								Grid.Row="0" Grid.Column="2"
+								Style="{StaticResource CopyButtonStyleKey}"
+								Content="&#xE16D;"
+								Tag="{Binding Tag, ElementName=CharacterCodeOriginalValue}"
+								Click="CopyToClipboardButton_Click"/>
+
+						<TextBlock x:Name="CharacterCodeForXAML"
+								   x:Uid="ForXAMLLabel"
+								   Grid.Row="1" Grid.Column="0"
+								   Style="{StaticResource LabelTextBlockStyleKey}"
+								   Tag="{Binding SelectedItem.CharacterCode, Converter={StaticResource ValueToStringFormatConverterKey}, ConverterParameter='&amp;#x{0:X4};', ElementName=IconFontCollectionGridView}"/>
+						<TextBox Grid.Row="1" Grid.Column="1"
+								 Style="{StaticResource ReadOnlyTextBoxStyleKey}"
+								 Text="{Binding Tag, ElementName=CharacterCodeForXAML}"/>
+						<Button x:Uid="CopyClipboardButton"
+								Grid.Row="1" Grid.Column="2"
+								Style="{StaticResource CopyButtonStyleKey}"
+								Content="&#xE16D;"
+								Tag="{Binding Tag, ElementName=CharacterCodeForXAML}"
+								Click="CopyToClipboardButton_Click"/>
+
+						<TextBlock x:Name="CharacterCodeForCodeBehind"
+								   x:Uid="ForCodeBehindLabel"
+								   Grid.Row="2" Grid.Column="0"
+								   Style="{StaticResource LabelTextBlockStyleKey}"
+								   Tag="{Binding SelectedItem.CharacterCode, Converter={StaticResource ValueToStringFormatConverterKey}, ConverterParameter='\\u{0:X4}', ElementName=IconFontCollectionGridView}"/>
+						<TextBox Grid.Row="2" Grid.Column="1"
+								 Style="{StaticResource ReadOnlyTextBoxStyleKey}"
+								 Text="{Binding Tag, ElementName=CharacterCodeForCodeBehind}"/>
+						<Button x:Uid="CopyClipboardButton"
+								Grid.Row="2" Grid.Column="2"
+								Style="{StaticResource CopyButtonStyleKey}"
+								Content="&#xE16D;"
+								Tag="{Binding Tag, ElementName=CharacterCodeForCodeBehind}"
+								Click="CopyToClipboardButton_Click"/>
+					</Grid>
+				</Grid>
+			</Border>
+		</Grid>
+	</Grid>
+</Page>

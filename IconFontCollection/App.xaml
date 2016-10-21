@@ -1,0 +1,10 @@
+﻿<Application
+    x:Class="IconFontCollection.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IconFontCollection"
+    RequestedTheme="Dark">
+	<Application.Resources>
+		<ResourceDictionary Source="Views/CustomResource.xaml"/>
+	</Application.Resources>
+</Application>
