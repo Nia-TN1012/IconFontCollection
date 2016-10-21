@@ -95,7 +95,7 @@
 									</Hyperlink><LineBreak/><LineBreak/>
 									<Run x:Uid="AppLicence"/><LineBreak/>
 									GitHub : 
-									<Hyperlink NavigateUri="https://github.com/Nia-TN1012/SpacomicUniverse">
+									<Hyperlink NavigateUri="https://github.com/Nia-TN1012/IconFontCollection">
 										<Run Text="IconFontCollection"/>
 									</Hyperlink>
 								</TextBlock>
