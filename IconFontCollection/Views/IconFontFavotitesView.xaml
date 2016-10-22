@@ -64,7 +64,7 @@
 									<ColumnDefinition Width="Auto"/>
 								</Grid.ColumnDefinitions>
 
-								<TextBlock Grid.Column="0" Padding="5,0"
+								<TextBlock Grid.Column="0" Padding="10,0,5,0"
 										   TextAlignment="Center" VerticalAlignment="Center"
 										   Text="{Binding CodeKey}"/>
 
