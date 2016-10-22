@@ -3,16 +3,17 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
+
 	/// <summary>
-	///		Main page
+	///		Provides the main page.
 	/// </summary>
 	public sealed partial class MainPage : Page {
 
 		/// <summary>
-		///		Creates a new instance of the MainPage class.
+		///		Creates a new instance of the <see cref="MainPage"/> class.
 		/// </summary>
 		public MainPage() {
 			InitializeComponent();
@@ -54,7 +55,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Invoked when user press SwitchIconFontCollectionViewButton button.
+		///		Invoked when user press <see cref="SwitchIconFontCollectionViewButton"/> button.
 		/// </summary>
 		private void SwitchIconFontCollectionViewButton_Click( object sender, RoutedEventArgs e ) {
 			// When the current page is the collection view ...
@@ -72,7 +73,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Invoked when user press SwitchIconFontFavoritesViewButton button.
+		///		Invoked when user press <see cref="SwitchIconFontFavoritesViewButton"/> button.
 		/// </summary>
 		private void SwitchIconFontFavoritesViewButton_Click( object sender, RoutedEventArgs e ) {
 			var iconFontFavoritesView = IconFontPageContentFrame.Content as IconFontFavotitesView;
@@ -86,7 +87,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Invoked when user press SwitchUserGuideButton button.
+		///		Invoked when user press <see cref="SwitchUserGuideButton"/> button.
 		/// </summary>
 		private void SwitchUserGuideButton_Click( object sender, RoutedEventArgs e ) {
 			IconFontPageContentFrame.Navigate( typeof( UserGuidePage ) );
@@ -94,7 +95,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Invoked when user press SwitchSettingAboutButton button.
+		///		Invoked when user press <see cref=" SwitchSettingAboutButton"/> button.
 		/// </summary>
 		private void SwitchSettingAboutButton_Click( object sender, RoutedEventArgs e ) {
 			IconFontPageContentFrame.Navigate( typeof( AppSettingView ) );

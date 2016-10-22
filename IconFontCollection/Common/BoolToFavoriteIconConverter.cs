@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Globalization;
 using Windows.UI;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
 
@@ -37,12 +36,12 @@ namespace IconFontCollection {
 	public sealed class BoolToFavoriteIconColorConverter : IValueConverter {
 
 		/// <summary>
-		///		
+		///		Represent the <see cref="Brush"/> of the target that is registered to favorites.
 		/// </summary>
 		private static readonly Brush FavoriteColor = new SolidColorBrush( Colors.Orange );
 
 		/// <summary>
-		///		
+		///		Represent the <see cref="Brush"/> of the target that is not registered to favorites.
 		/// </summary>
 		private static readonly Brush NonFavoriteColor = new SolidColorBrush( Colors.Gray );
 

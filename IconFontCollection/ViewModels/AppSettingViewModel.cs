@@ -86,7 +86,7 @@ namespace IconFontCollection {
 			///		Creates a new instance of the ClearAllFavoriteCommand class from the reference ViewModel.
 			/// </summary>
 			/// <param name="_viewModel">Reference ViewModel</param>
-			public ClearAllFavoritesCommand( AppSettingViewModel _viewModel ) {
+			internal ClearAllFavoritesCommand( AppSettingViewModel _viewModel ) {
 				viewModel = _viewModel;
 				viewModel.PropertyChanged +=
 					( sender, e ) => {

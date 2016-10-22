@@ -1,31 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
+﻿using System.Linq;
 using Windows.ApplicationModel.DataTransfer;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
+
 	/// <summary>
-	///		IconFontCollectionView class
+	///		Provides the page for displaying IconFonts.
 	/// </summary>
 	public sealed partial class IconFontCollectionView : Page {
 
 		/// <summary>
-		///		Creates a new instance of the IconFontCollectionView class.
+		///		Creates a new instance of the <see cref="IconFontCollectionView"/> class.
 		/// </summary>
 		public IconFontCollectionView() {
 			InitializeComponent();
@@ -84,7 +75,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Invoked when the Zoom on the SemanticZoom control has been changed.
+		///		Invoked when the Zoom on the <see cref="SemanticZoom"/> control has been changed.
 		/// </summary>
 		private void SemanticZoom_ViewChangeStarted( object sender, SemanticZoomViewChangedEventArgs e ) {
 			if( !e.IsSourceZoomedInView ) {
@@ -97,7 +88,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Jump to the first item in the GridView.
+		///		Jump to the first item in the <see cref="GridView"/>.
 		/// </summary>
 		public void GridViewJumpToFirstItem() {
 			if( IconFontSemantics.IsZoomedInViewActive ) {

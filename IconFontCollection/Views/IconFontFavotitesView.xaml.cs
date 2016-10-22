@@ -1,31 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
+﻿using System.Linq;
 using Windows.ApplicationModel.DataTransfer;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
 	/// <summary>
-	///		IconFontFavotitesView class
+	///		Provides the page for displaying IconFonts registered favotites.
 	/// </summary>
 	public sealed partial class IconFontFavotitesView : Page {
 
 		/// <summary>
-		///		Creates a new instance of the IconFontFavotitesView class.
+		///		Creates a new instance of the <see cref="IconFontFavotitesView"/> class.
 		/// </summary>
 		public IconFontFavotitesView() {
 			InitializeComponent();
@@ -84,7 +74,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Jump to the first item in the GridView.
+		///		Jump to the first item in the <see cref="GridView"/>.
 		/// </summary>
 		public void GridViewJumpToFirstItem() {
 			if( IconFontCollectionGridView.Items?.Any() ?? false ) {

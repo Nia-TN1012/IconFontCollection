@@ -4,22 +4,22 @@ using System.Runtime.CompilerServices;
 using System.Windows.Input;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
 
 	/// <summary>
-	///		Provides a based view model of IconFont 
+	///		Provides a based view model of IconFont.
 	/// </summary>
 	class IconFontViewModelBase : INotifyPropertyChanged {
 
 		/// <summary>
-		///		Represents IconFontCollectionModel
+		///		Represents the <see cref="IconFontCollectionModel"/>.
 		/// </summary>
 		protected IconFontCollectionModel model;
 
 		/// <summary>
-		///		Creates new instance of the IconFontViewModelBase class.
+		///		Creates new instance of the <see cref="IconFontCollectionModel"/> class.
 		/// </summary>
 		public IconFontViewModelBase() {
 			// Gets the Model from the App object.
@@ -48,11 +48,11 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Represents the instance of SetFavoriteCommand.
+		///		Represents the instance of <see cref="SetFavoriteCommand"/>.
 		/// </summary>
 		private ICommand setFavorite;
 		/// <summary>
-		///		Gets the instance of SetFavoriteCommand.
+		///		Gets the instance of <see cref="SetFavoriteCommand"/>.
 		/// </summary>
 		/// <remarks>The instance is delayed initialization.</remarks>
 		public ICommand SetFavorite =>
@@ -64,15 +64,15 @@ namespace IconFontCollection {
 		private class SetFavoriteCommand : ICommand {
 
 			/// <summary>
-			///		Represents the reference ViewModel.
+			///		Represents the reference of <see cref="IconFontViewModelBase"/>.
 			/// </summary>
 			private IconFontViewModelBase viewModel;
 
 			/// <summary>
-			///		Creates the new instance of the SetFavoriteCommand class from the reference ViewModel.
+			///		Creates the new instance of the <see cref="SetFavoriteCommand"/> class from the reference of <see cref="IconFontViewModelBase"/>.
 			/// </summary>
-			/// <param name="_viewModel">Reference ViewModel</param>
-			public SetFavoriteCommand( IconFontViewModelBase _viewModel ) {
+			/// <param name="_viewModel">Reference of <see cref="IconFontViewModelBase"/></param>
+			internal SetFavoriteCommand( IconFontViewModelBase _viewModel ) {
 				viewModel = _viewModel;
 				viewModel.PropertyChanged +=
 					( sender, e ) =>

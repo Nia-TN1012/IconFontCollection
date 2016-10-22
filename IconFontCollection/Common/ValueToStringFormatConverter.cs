@@ -3,17 +3,17 @@ using System.Globalization;
 using Windows.UI.Xaml.Data;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
 
 	/// <summary>
-	///		This converter class provides methods whitch converts the value in accordance with the specified format and culture information.
+	///		Provides two methods whitch converts the value in accordance with the specified format and culture information.
 	/// </summary>
 	public sealed class ValueToStringFormatConverter : IValueConverter {
 
 		/// <summary>
-		///		This method converts the value in accordance with the specified format and culture information.
+		///		Converts the value in accordance with the specified format and culture information.
 		/// </summary>
 		/// <param name="value">Source value</param>
 		/// <param name="targetType">Target type</param>
@@ -44,18 +44,18 @@ namespace IconFontCollection {
 	}
 
 	/// <summary>
-	///		This converter class provides methods whitch converts the value in accordance with the specified format and culture information.
+	///		Provides two methods whitch converts the value to the <see cref="Windows.UI.Xaml.Controls.FontIcon.Glyph"/> of <see cref="Windows.UI.Xaml.Controls.FontIcon"/>.
 	/// </summary>
 	public sealed class ValueToFontIconGlyphConverter : IValueConverter {
 
 		/// <summary>
-		///		This method converts the value in accordance with the specified format and culture information.
+		///		Converts the value to the <see cref="Windows.UI.Xaml.Controls.FontIcon.Glyph"/> of <see cref="Windows.UI.Xaml.Controls.FontIcon"/>.
 		/// </summary>
 		/// <param name="value">Source value</param>
 		/// <param name="targetType">Target type</param>
 		/// <param name="parameter">Format string</param>
 		/// <param name="language">Culture information</param>
-		/// <returns>String that has been converted by the format and culture information</returns>
+		/// <returns><see cref="Windows.UI.Xaml.Controls.FontIcon.Glyph"/> of <see cref="Windows.UI.Xaml.Controls.FontIcon"/></returns>
 		public object Convert( object value, Type targetType, object parameter, string language ) {
 			if( value != null && value is int ) {
 				return char.ConvertFromUtf32( ( int )value );

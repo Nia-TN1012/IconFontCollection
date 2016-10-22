@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
 
@@ -12,12 +12,12 @@ namespace IconFontCollection {
 	class MainViewModel {
 
 		/// <summary>
-		///		Represents the IconFontCollectionModel.
+		///		Represents the <see cref="IconFontCollectionModel"/>.
 		/// </summary>
 		private IconFontCollectionModel model;
 
 		/// <summary>
-		///		Creates a new instance of the MainViewModel class.
+		///		Creates a new instance of the <see cref="MainViewModel"/> class.
 		/// </summary>
 		public MainViewModel() {
 			// Gets the Model from the App object.

@@ -2,7 +2,7 @@
 using System.Linq;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
 
@@ -18,7 +18,7 @@ namespace IconFontCollection {
 			model.Items.Values.Where( _ => _.IsFavorite );
 
 		/// <summary>
-		///		Creates a new instance of the IconFontFavoritesViewModel class.
+		///		Creates a new instance of the <see cref="IconFontFavoritesViewModel"/> class.
 		/// </summary>
 		public IconFontFavoritesViewModel() : base() {}
 	}

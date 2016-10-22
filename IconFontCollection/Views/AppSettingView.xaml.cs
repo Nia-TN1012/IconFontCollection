@@ -1,26 +1,26 @@
 ﻿using Windows.UI.Core;
-using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
+
 	/// <summary>
-	///		Application setting page
+	///		Provides the page for application setting.
 	/// </summary>
 	public sealed partial class AppSettingView : Page {
 
 		/// <summary>
-		///		Creates a new instance of the AppSettingView class.
+		///		Creates a new instance of the <see cref="AppSettingView"/> class.
 		/// </summary>
 		public AppSettingView() {
 			InitializeComponent();
 		}
 
 		/// <summary>
-		///		Run when the transition from another page.
+		///		Invoked when the transition from another page.
 		/// </summary>
 		/// <param name="e">Event arguments</param>
 		protected override void OnNavigatedTo( NavigationEventArgs e ) {
@@ -34,7 +34,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Run when the transition to another page.
+		///		Invoked when the transition to another page.
 		/// </summary>
 		/// <param name="e">Event arguments</param>
 		protected override void OnNavigatingFrom( NavigatingCancelEventArgs e ) {
@@ -48,7 +48,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Run when the Back button is pressed.
+		///		Invoked when the Back button is pressed.
 		/// </summary>
 		private void Page_BackRequested( object sender, BackRequestedEventArgs e ) {
 			if( Frame.CanGoBack ) {

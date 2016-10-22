@@ -2,7 +2,7 @@
 using System.Linq;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
 
@@ -22,17 +22,17 @@ namespace IconFontCollection {
 	}
 
 	/// <summary>
-	///		Provides a view model of IconFontCollection
+	///		Provides a view model of IconFontCollection.
 	/// </summary>
 	class IconFontCollectionViewModel : IconFontViewModelBase {
 
 		/// <summary>
-		///		Gets the equence that contains the group of IconFonts.
+		///		Gets the sequence that contains the group of IconFonts.
 		/// </summary>
 		public IEnumerable<IconFontCollectionGroup> Items { get; private set; }
 
 		/// <summary>
-		///		Creates a new instance of the IconFontCollectionViewModel class.
+		///		Creates a new instance of the <see cref="IconFontCollectionViewModel"/> class.
 		/// </summary>
 		public IconFontCollectionViewModel() : base() {
 			Items = model.Items.Values
