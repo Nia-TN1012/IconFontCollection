@@ -8,7 +8,309 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<Pivot>
+			<PivotItem x:Uid="CollectionPivotItem"
+					   Margin="5">
+				<ScrollViewer>
+					<StackPanel>
+						<Border Style="{StaticResource MaterialBorderStyleKey}">
+							<StackPanel Margin="5">
+								<TextBlock x:Uid="GuideCollection" Margin="5" TextWrapping="Wrap"/>
+								<Image Margin="5" MaxHeight="300"
+									   HorizontalAlignment="Left"
+									   Source="ms-appx:///Assets/UserGuide/home.png"/>
+							</StackPanel>
+						</Border>
+						<Border Style="{StaticResource MaterialBorderStyleKey}">
+							<StackPanel Margin="5">
+								<TextBlock x:Uid="GuideCollectionPanel"
+										   Margin="5" TextWrapping="Wrap"/>
+								<Image Margin="5" MaxHeight="300"
+									   HorizontalAlignment="Left"
+									   Source="ms-appx:///Assets/UserGuide/icon_character_code.png"/>
 
-    </Grid>
+								<TextBlock x:Uid="ButtonDescriptionLabel"
+										   Margin="5" TextWrapping="Wrap"/>
+								<Grid Margin="5">
+									<Grid.RowDefinitions>
+										<RowDefinition Height="1*"/>
+									</Grid.RowDefinitions>
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="Auto"/>
+										<ColumnDefinition Width="1*"/>
+										<ColumnDefinition Width="3*"/>
+									</Grid.ColumnDefinitions>
+
+									<Grid Grid.Row="0" Grid.Column="0"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock Style="{StaticResource TableHeaderCellLikeIconTextBlockStyleKey}"
+												   Text="&#xE16D;"/>
+									</Grid>
+									<Grid Grid.Row="0" Grid.Column="1"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock x:Uid="CopyClipboardButtonLabel"
+												   Style="{StaticResource TableHeaderCellLikeTextBlockStyleKey}"/>
+									</Grid>
+									<Grid Grid.Row="0" Grid.Column="2"
+										  Style="{StaticResource TableCellLikeGridStyleKey}">
+										<TextBlock x:Uid="CopyClipboardButtonDescription"
+												   Style="{StaticResource TableCellLikeTextBlockStyleKey}"/>
+									</Grid>
+								</Grid>
+
+								<TextBlock x:Uid="CharacterCodeLabel"
+										   Margin="5" TextWrapping="Wrap"/>
+								<Grid Margin="5">
+									<Grid.RowDefinitions>
+										<RowDefinition Height="1*"/>
+										<RowDefinition Height="1*"/>
+										<RowDefinition Height="1*"/>
+									</Grid.RowDefinitions>
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="1*"/>
+										<ColumnDefinition Width="4*"/>
+									</Grid.ColumnDefinitions>
+
+									<Grid Grid.Row="0" Grid.Column="0"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock x:Uid="OriginalValueLabel"
+												   Style="{StaticResource TableHeaderCellLikeTextBlockStyleKey}"/>
+									</Grid>
+									<Grid Grid.Row="0" Grid.Column="1"
+										  Style="{StaticResource TableCellLikeGridStyleKey}">
+										<TextBlock x:Uid="OriginalValueDescription"
+												   Style="{StaticResource TableCellLikeTextBlockStyleKey}"/>
+									</Grid>
+
+									<Grid Grid.Row="1" Grid.Column="0"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock x:Uid="ForXAMLLabel"
+												   Style="{StaticResource TableHeaderCellLikeTextBlockStyleKey}"/>
+									</Grid>
+									<Grid Grid.Row="1" Grid.Column="1"
+										  Style="{StaticResource TableCellLikeGridStyleKey}">
+										<TextBlock x:Uid="ForXAMLDescription"
+												   Style="{StaticResource TableCellLikeTextBlockStyleKey}"/>
+									</Grid>
+
+									<Grid Grid.Row="2" Grid.Column="0"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock x:Uid="ForCodeBehindLabel"
+												   Style="{StaticResource TableHeaderCellLikeTextBlockStyleKey}"/>
+									</Grid>
+									<Grid Grid.Row="2" Grid.Column="1"
+										  Style="{StaticResource TableCellLikeGridStyleKey}">
+										<TextBlock x:Uid="ForCodeBehindDescription"
+												   Style="{StaticResource TableCellLikeTextBlockStyleKey}"/>
+									</Grid>
+								</Grid>
+							</StackPanel>
+						</Border>
+					</StackPanel>
+				</ScrollViewer>
+			</PivotItem>
+			<PivotItem x:Uid="FavoritesPivotItem"
+					   Margin="5">
+				<ScrollViewer>
+					<StackPanel>
+						<Border Style="{StaticResource MaterialBorderStyleKey}">
+							<StackPanel Margin="5">
+								<TextBlock Margin="5" TextWrapping="Wrap">
+									<Run x:Uid="GuideFavoritesSummary"/><LineBreak/>
+									<Run x:Uid="GuideFavoritesSet"/>
+								</TextBlock>
+								<Image Margin="5" MaxHeight="300"
+									   HorizontalAlignment="Left"
+									   Source="ms-appx:///Assets/UserGuide/set_favorite.png"/>
+
+								<TextBlock x:Uid="FavoriteIconLabel"
+										   Margin="5" TextWrapping="Wrap"/>
+								<Grid Margin="5">
+									<Grid.RowDefinitions>
+										<RowDefinition Height="1*"/>
+										<RowDefinition Height="1*"/>
+									</Grid.RowDefinitions>
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="Auto"/>
+										<ColumnDefinition Width="*"/>
+									</Grid.ColumnDefinitions>
+
+									<Grid Grid.Row="0" Grid.Column="0"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock Style="{StaticResource TableHeaderCellLikeIconTextBlockStyleKey}"
+												   Foreground="Gray"
+												   Text="&#xE734;"/>
+									</Grid>
+									<Grid Grid.Row="0" Grid.Column="1"
+										  Style="{StaticResource TableCellLikeGridStyleKey}">
+										<TextBlock x:Uid="IsNotRegiteredFavorites"
+												   Style="{StaticResource TableCellLikeTextBlockStyleKey}"/>
+									</Grid>
+
+									<Grid Grid.Row="1" Grid.Column="0"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock Style="{StaticResource TableHeaderCellLikeIconTextBlockStyleKey}"
+												   Foreground="Orange"
+												   Text="&#xE735;"/>
+									</Grid>
+									<Grid Grid.Row="1" Grid.Column="1"
+										  Style="{StaticResource TableCellLikeGridStyleKey}">
+										<TextBlock x:Uid="IsRegiteredFavorites"
+												   Style="{StaticResource TableCellLikeTextBlockStyleKey}"/>
+									</Grid>
+								</Grid>
+							</StackPanel>
+						</Border>
+						<Border Style="{StaticResource MaterialBorderStyleKey}">
+							<StackPanel Margin="5">
+								<TextBlock Margin="5" TextWrapping="Wrap">
+									<Run x:Uid="GuideFavorites"/><LineBreak/>
+									<Run x:Uid="GuideFavoritesPanel"/>
+								</TextBlock>
+								<Image Margin="5" MaxHeight="300"
+									   HorizontalAlignment="Left"
+									   Source="ms-appx:///Assets/UserGuide/favorite.png"/>
+							</StackPanel>
+						</Border>
+					</StackPanel>
+				</ScrollViewer>
+			</PivotItem>
+			<PivotItem x:Uid="NavigationPivotItem"
+					   Margin="5">
+				<ScrollViewer>
+					<StackPanel>
+						<Border Style="{StaticResource MaterialBorderStyleKey}">
+							<StackPanel Margin="5">
+								<TextBlock x:Uid="GuideNavigation"
+										   Margin="5" TextWrapping="Wrap"/>
+								<Image Margin="5" MaxHeight="300"
+									   HorizontalAlignment="Left"
+									   Source="ms-appx:///Assets/UserGuide/navigation.png"/>
+
+								<TextBlock x:Uid="ButtonDescriptionLabel"
+										   Margin="5" TextWrapping="Wrap"/>								
+								<Grid Margin="5">
+									<Grid.RowDefinitions>
+										<RowDefinition Height="1*"/>
+										<RowDefinition Height="1*"/>
+										<RowDefinition Height="1*"/>
+										<RowDefinition Height="1*"/>
+									</Grid.RowDefinitions>
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="Auto"/>
+										<ColumnDefinition Width="1*"/>
+										<ColumnDefinition Width="3*"/>
+									</Grid.ColumnDefinitions>
+
+									<Grid Grid.Row="0" Grid.Column="0"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock Style="{StaticResource TableHeaderCellLikeIconTextBlockStyleKey}"
+												   Text="&#xE80F;"/>
+									</Grid>
+									<Grid Grid.Row="0" Grid.Column="1"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock x:Uid="SwitchCollectionButtonLabel"
+												   Style="{StaticResource TableHeaderCellLikeTextBlockStyleKey}"/>
+									</Grid>
+									<Grid Grid.Row="0" Grid.Column="2"
+										 Style="{StaticResource TableCellLikeGridStyleKey}">
+										<TextBlock x:Uid="SwitchCollectionButtonDescription"
+												   Style="{StaticResource TableCellLikeTextBlockStyleKey}"/>
+									</Grid>
+
+									<Grid Grid.Row="1" Grid.Column="0"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock Style="{StaticResource TableHeaderCellLikeIconTextBlockStyleKey}"
+												   Text="&#xE728;"/>
+									</Grid>
+									<Grid Grid.Row="1" Grid.Column="1"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock x:Uid="SwitchFavoritesButtonLabel"
+												   Style="{StaticResource TableHeaderCellLikeTextBlockStyleKey}"/>
+									</Grid>
+									<Grid Grid.Row="1" Grid.Column="2"
+										  Style="{StaticResource TableCellLikeGridStyleKey}">
+										<TextBlock x:Uid="SwitchFavoritesButtonDescription"
+												   Style="{StaticResource TableCellLikeTextBlockStyleKey}"/>
+									</Grid>
+
+									<Grid Grid.Row="2" Grid.Column="0"
+									  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock Style="{StaticResource TableHeaderCellLikeIconTextBlockStyleKey}"
+											   Text="&#xE897;"/>
+									</Grid>
+									<Grid Grid.Row="2" Grid.Column="1"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock x:Uid="SwitchUserGuideButtonLabel"
+												   Style="{StaticResource TableHeaderCellLikeTextBlockStyleKey}"/>
+									</Grid>
+									<Grid Grid.Row="2" Grid.Column="2"
+										  Style="{StaticResource TableCellLikeGridStyleKey}">
+										<TextBlock x:Uid="SwitchUserGuideButtonDescription"
+												   Style="{StaticResource TableCellLikeTextBlockStyleKey}"/>
+									</Grid>
+
+									<Grid Grid.Row="3" Grid.Column="0"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock Style="{StaticResource TableHeaderCellLikeIconTextBlockStyleKey}"
+												   Text="&#xE713;"/>
+									</Grid>
+									<Grid Grid.Row="3" Grid.Column="1"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock x:Uid="SwitchAppSettingButtonLabel"
+												   Style="{StaticResource TableHeaderCellLikeTextBlockStyleKey}"/>
+									</Grid>
+									<Grid Grid.Row="3" Grid.Column="2"
+										  Style="{StaticResource TableCellLikeGridStyleKey}">
+										<TextBlock x:Uid="SwitchAppSettingButtonDescription"
+												   Style="{StaticResource TableCellLikeTextBlockStyleKey}"/>
+									</Grid>
+								</Grid>
+							</StackPanel>
+						</Border>
+					</StackPanel>
+				</ScrollViewer>
+			</PivotItem>
+			<PivotItem x:Uid="SettingsPivotItem"
+					   Margin="5">
+				<ScrollViewer>
+					<StackPanel>
+						<Border Style="{StaticResource MaterialBorderStyleKey}">
+							<StackPanel>
+								<StackPanel Margin="5">
+									<TextBlock x:Uid="GuideSettings"
+											   Margin="5" TextWrapping="Wrap"/>
+									<Image Margin="5" MaxHeight="300"
+										   HorizontalAlignment="Left"
+										   Source="ms-appx:///Assets/UserGuide/settings.png"/>
+								</StackPanel>
+
+								<Grid Margin="5">
+									<Grid.RowDefinitions>
+										<RowDefinition Height="1*"/>
+									</Grid.RowDefinitions>
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="1*"/>
+										<ColumnDefinition Width="3*"/>
+									</Grid.ColumnDefinitions>
+
+									<Grid Grid.Row="0" Grid.Column="0"
+										  Style="{StaticResource TableHeaderCellLikeGridStyleKey}">
+										<TextBlock x:Uid="ClearAllRegisteredFavoriteButtonLabel"
+												   Style="{StaticResource TableHeaderCellLikeTextBlockStyleKey}"/>
+									</Grid>
+									<Grid Grid.Row="0" Grid.Column="1"
+										  Style="{StaticResource TableCellLikeGridStyleKey}">
+										<TextBlock x:Uid="ClearAllRegisteredFavoriteButtonDescription"
+												   Style="{StaticResource TableCellLikeTextBlockStyleKey}"/>
+									</Grid>
+								</Grid>
+							</StackPanel>
+						</Border>
+					</StackPanel>
+				</ScrollViewer>
+			</PivotItem>
+		</Pivot>
+	</Grid>
 </Page>

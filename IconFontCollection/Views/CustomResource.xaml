@@ -287,9 +287,33 @@
 		<Setter Property="ScrollViewer.IsHorizontalScrollChainingEnabled" Value="False"/>
 	</Style>
 
+	<Style x:Key="TableCellLikeGridStyleKey" TargetType="Grid">
+		<Setter Property="Margin" Value="1"/>
+		<Setter Property="Background" Value="#10000000"/>
+	</Style>
+
 	<Style x:Key="TableHeaderCellLikeGridStyleKey" TargetType="Grid"
 		   BasedOn="{StaticResource TableCellLikeGridStyleKey}">
-		<Setter Property="Background" Value="#20FFFFFF"/>
+		<Setter Property="Background" Value="#20000000"/>
+	</Style>
+
+	<Style x:Key="TableCellLikeTextBlockStyleKey" TargetType="TextBlock">
+		<Setter Property="Margin" Value="5"/>
+		<Setter Property="TextWrapping" Value="Wrap"/>
+	</Style>
+
+	<Style x:Key="TableHeaderCellLikeTextBlockStyleKey" TargetType="TextBlock"
+		   BasedOn="{StaticResource TableCellLikeTextBlockStyleKey}">
+		<Setter Property="FontWeight" Value="Bold"/>
+		<Setter Property="HorizontalAlignment" Value="Center"/>
+		<Setter Property="VerticalAlignment" Value="Center"/>
+	</Style>
+
+	<Style x:Key="TableHeaderCellLikeIconTextBlockStyleKey" TargetType="TextBlock"
+		   BasedOn="{StaticResource TableCellLikeTextBlockStyleKey}">
+		<Setter Property="FontFamily" Value="{ThemeResource SymbolThemeFontFamily}"/>
+		<Setter Property="HorizontalAlignment" Value="Center"/>
+		<Setter Property="VerticalAlignment" Value="Center"/>
 	</Style>
 
 </ResourceDictionary>

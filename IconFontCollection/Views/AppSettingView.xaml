@@ -21,16 +21,14 @@
 						<Border Style="{StaticResource MaterialBorderStyleKey}">
 							<StackPanel Margin="5">
 								<StackPanel Margin="5">
-									<Button x:Uid="ClearAllRegisteredFavorite"
+									<Button x:Uid="ClearAllRegisteredFavoriteButton"
 											Margin="5"
 											Command="{Binding ClearAllFavorites}"/>
-									<TextBlock x:Uid="ClearAllRegisteredFavoriteDescription"
+									<TextBlock x:Uid="ClearAllRegisteredFavoriteButtonDescription"
 											   Margin="5"
 											   FontSize="{ThemeResource ContentControlFontSize}"
-											   TextWrapping="Wrap"
-											   Text="Clears all registered favorite IconFonts."/>
+											   TextWrapping="Wrap"/>
 									<Border Margin="20, 5" Style="{StaticResource YellowMaterialBorderStyleKey}">
-
 										<TextBlock Margin="5"
 												   FontSize="{ThemeResource ContentControlFontSize}"
 												   TextWrapping="Wrap">

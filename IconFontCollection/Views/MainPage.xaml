@@ -55,7 +55,6 @@
 							<RadioButton x:Name="SwitchIconFontFavoritesViewButton"
 										 x:Uid="SwitchFavoritesButton"
 										 Style="{StaticResource SplitViewRadioButtonStyleKey}"
-										 IsEnabled="{Binding CanSwitchComicView}"
 										 GroupName="NavigationMenu" Tag="&#xE728;"
 										 Click="SwitchIconFontFavoritesViewButton_Click"
 										 ToolTipService.ToolTip="{Binding Content, RelativeSource={RelativeSource Self}}"/>

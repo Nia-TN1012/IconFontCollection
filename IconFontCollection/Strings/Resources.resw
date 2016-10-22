@@ -135,26 +135,77 @@
   <data name="AppTitle.Text" xml:space="preserve">
     <value>IconFont Collection</value>
   </data>
+  <data name="ButtonDescriptionLabel.Text" xml:space="preserve">
+    <value>Buttons</value>
+  </data>
   <data name="CharacterCodeLabel.Text" xml:space="preserve">
     <value>Character Code</value>
   </data>
-  <data name="ClearAllRegisteredFavorite.Content" xml:space="preserve">
+  <data name="ClearAllRegisteredFavoriteButton.Content" xml:space="preserve">
     <value>Clear all registered favorite</value>
   </data>
-  <data name="ClearAllRegisteredFavoriteDescription.Text" xml:space="preserve">
+  <data name="ClearAllRegisteredFavoriteButtonDescription.Text" xml:space="preserve">
     <value>Clears all registered favorite IconFonts.</value>
+  </data>
+  <data name="ClearAllRegisteredFavoriteButtonLabel.Text" xml:space="preserve">
+    <value>Clear all registered favorite</value>
   </data>
   <data name="ClearAllRegisteredFavoriteNote.Text" xml:space="preserve">
     <value>To save the changes, please close the app.</value>
   </data>
+  <data name="CollectionPivotItem.Header" xml:space="preserve">
+    <value>Views Collection</value>
+  </data>
   <data name="CopyClipboardButton.ToolTipService.ToolTip" xml:space="preserve">
     <value>Copy to clipboard</value>
+  </data>
+  <data name="CopyClipboardButtonDescription.Text" xml:space="preserve">
+    <value>Copy the string in the text box to clipboard.</value>
+  </data>
+  <data name="CopyClipboardButtonLabel.Text" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
+  <data name="FavoriteIconLabel.Text" xml:space="preserve">
+    <value>Favorite icon</value>
+  </data>
+  <data name="FavoritesPivotItem.Header" xml:space="preserve">
+    <value>Views Favorites</value>
+  </data>
+  <data name="ForCodeBehindDescription.Text" xml:space="preserve">
+    <value>Character code formatted for Code-behind</value>
   </data>
   <data name="ForCodeBehindLabel.Text" xml:space="preserve">
     <value>For Code-behind</value>
   </data>
+  <data name="ForXAMLDescription.Text" xml:space="preserve">
+    <value>Character code formatted for XAML</value>
+  </data>
   <data name="ForXAMLLabel.Text" xml:space="preserve">
     <value>For XAML</value>
+  </data>
+  <data name="GuideCollection.Text" xml:space="preserve">
+    <value>When the app start, navigate to Collection page that displays the list of IconFonts.</value>
+  </data>
+  <data name="GuideCollectionPanel.Text" xml:space="preserve">
+    <value>The panel below the list displays the icon and the character code of the selected IconFont.</value>
+  </data>
+  <data name="GuideFavorites.Text" xml:space="preserve">
+    <value>Favorites page displays the list of IconFonts registered in the favorites.</value>
+  </data>
+  <data name="GuideFavoritesPanel.Text" xml:space="preserve">
+    <value>The panel below the list displays the icon and the character code of the selected IconFont.</value>
+  </data>
+  <data name="GuideFavoritesSet.Text" xml:space="preserve">
+    <value>When you press the button of the star mark in the right-bottom corner of the item, and then registration and cancellation the IconFont to favorites.</value>
+  </data>
+  <data name="GuideFavoritesSummary.Text" xml:space="preserve">
+    <value>In this app, has the ability to register the frequently used IconFont as a favorite.</value>
+  </data>
+  <data name="GuideNavigation.Text" xml:space="preserve">
+    <value>When you press the hamburger button on the left-top, opens the navigation menu.</value>
+  </data>
+  <data name="GuideSettings.Text" xml:space="preserve">
+    <value>In the Settings page, or made the settings, or to view information about the app.</value>
   </data>
   <data name="IconFontCollectionViewPage.Tag" xml:space="preserve">
     <value>IconFont Collection</value>
@@ -165,6 +216,18 @@
   <data name="IconLabel.Text" xml:space="preserve">
     <value>Icon</value>
   </data>
+  <data name="IsNotRegiteredFavorites.Text" xml:space="preserve">
+    <value>Is not registered to favorites.</value>
+  </data>
+  <data name="IsRegiteredFavorites.Text" xml:space="preserve">
+    <value>Is registered to favorites.</value>
+  </data>
+  <data name="NavigationPivotItem.Header" xml:space="preserve">
+    <value>Navigation menu</value>
+  </data>
+  <data name="OriginalValueDescription.Text" xml:space="preserve">
+    <value>Original character code ( Hexdecimal )</value>
+  </data>
   <data name="OriginalValueLabel.Text" xml:space="preserve">
     <value>Original Value</value>
   </data>
@@ -174,16 +237,43 @@
   <data name="SettingPivot.Header" xml:space="preserve">
     <value>Settings</value>
   </data>
+  <data name="SettingsPivotItem.Header" xml:space="preserve">
+    <value>Setting app</value>
+  </data>
   <data name="SwitchAppSettingButton.Content" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SwitchAppSettingButtonDescription.Text" xml:space="preserve">
+    <value>Open the app settings page.</value>
+  </data>
+  <data name="SwitchAppSettingButtonLabel.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
   <data name="SwitchCollectionButton.Content" xml:space="preserve">
     <value>Collection</value>
   </data>
+  <data name="SwitchCollectionButtonDescription.Text" xml:space="preserve">
+    <value>Return to the Collection page from another page.</value>
+  </data>
+  <data name="SwitchCollectionButtonLabel.Text" xml:space="preserve">
+    <value>Collection</value>
+  </data>
   <data name="SwitchFavoritesButton.Content" xml:space="preserve">
-    <value>Favorite</value>
+    <value>Favorites</value>
+  </data>
+  <data name="SwitchFavoritesButtonDescription.Text" xml:space="preserve">
+    <value>Navigate to Favorites page.</value>
+  </data>
+  <data name="SwitchFavoritesButtonLabel.Text" xml:space="preserve">
+    <value>Favorites</value>
   </data>
   <data name="SwitchUserGuideButton.Content" xml:space="preserve">
+    <value>User Guide</value>
+  </data>
+  <data name="SwitchUserGuideButtonDescription.Text" xml:space="preserve">
+    <value>Open the user guide page ( this page ).</value>
+  </data>
+  <data name="SwitchUserGuideButtonLabel.Text" xml:space="preserve">
     <value>User Guide</value>
   </data>
   <data name="UserGuidePage.Tag" xml:space="preserve">

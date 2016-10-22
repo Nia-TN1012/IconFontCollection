@@ -90,8 +90,8 @@
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <None Include="project.json" />
-    <PRIResource Include="Strings\en-US\Resources.resw" />
-    <PRIResource Include="Strings\ja-JP\Resources.resw" />
+    <PRIResource Include="Strings\Resources.resw" />
+    <PRIResource Include="Strings\Resources.lang-ja-JP.resw" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -132,6 +132,19 @@
     <None Include="IconFontCollection_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\UserGuide\favorite.lang-ja-JP.png" />
+    <Content Include="Assets\UserGuide\favorite.png" />
+    <Content Include="Assets\UserGuide\group.lang-ja-JP.png" />
+    <Content Include="Assets\UserGuide\group.png" />
+    <Content Include="Assets\UserGuide\home.lang-ja-JP.png" />
+    <Content Include="Assets\UserGuide\home.png" />
+    <Content Include="Assets\UserGuide\icon_character_code.lang-ja-JP.png" />
+    <Content Include="Assets\UserGuide\icon_character_code.png" />
+    <Content Include="Assets\UserGuide\navigation.lang-ja-JP.png" />
+    <Content Include="Assets\UserGuide\navigation.png" />
+    <Content Include="Assets\UserGuide\settings.lang-ja-JP.png" />
+    <Content Include="Assets\UserGuide\settings.png" />
+    <Content Include="Assets\UserGuide\set_favorite.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
