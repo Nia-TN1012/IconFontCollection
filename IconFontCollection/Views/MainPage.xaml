@@ -8,6 +8,10 @@
     mc:Ignorable="d"
 	RequestedTheme="Light">
 
+	<Page.DataContext>
+		<local:MainViewModel x:Name="mainViewModel"/>
+	</Page.DataContext>
+
 	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
@@ -84,7 +88,7 @@
 						<AdaptiveTrigger MinWindowWidth="680"/>
 					</VisualState.StateTriggers>
 					<VisualState.Setters>
-						<Setter Target="SplitViewer.DisplayMode" Value="CompactInline"/>
+						<Setter Target="SplitViewer.DisplayMode" Value="CompactOverlay"/>
 					</VisualState.Setters>
 				</VisualState>
 				<VisualState x:Name="NarrowState">
@@ -92,7 +96,7 @@
 						<AdaptiveTrigger MinWindowWidth="0"/>
 					</VisualState.StateTriggers>
 					<VisualState.Setters>
-						<Setter Target="SplitViewer.DisplayMode" Value="Inline"/>
+						<Setter Target="SplitViewer.DisplayMode" Value="Overlay"/>
 					</VisualState.Setters>
 				</VisualState>
 			</VisualStateGroup>

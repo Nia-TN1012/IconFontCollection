@@ -22,8 +22,10 @@ namespace IconFontCollection {
 		///		Invoked when the transition from another page.
 		/// </summary>
 		/// <param name="e">Event arguments</param>
-		protected override void OnNavigatedTo( NavigationEventArgs e ) {
+		protected override async void OnNavigatedTo( NavigationEventArgs e ) {
 			base.OnNavigatedTo( e );
+
+			await mainViewModel.InitializeModel();
 
 			IconFontPageContentFrame.Navigate( typeof( IconFontCollectionView ) );
 		}

@@ -87,10 +87,13 @@ namespace IconFontCollection {
 		/// </summary>
 		/// <param name="sender">The source of the suspend request.</param>
 		/// <param name="e">Details about the suspend request.</param>
-		private void OnSuspending( object sender, SuspendingEventArgs e ) {
+		private async void OnSuspending( object sender, SuspendingEventArgs e ) {
 			var deferral = e.SuspendingOperation.GetDeferral();
 			//TODO: Save application state and stop any background activity
-			Model.SaveFavoriteList();
+
+			await Model.SaveFavoriteList();
+			await Model.WaitFileIOAsync();
+
 			deferral.Complete();
 		}
 	}

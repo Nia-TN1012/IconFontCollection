@@ -97,6 +97,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Common\AsyncLock.cs" />
     <Compile Include="Common\BoolToFavoriteIconConverter.cs" />
     <Compile Include="Common\ValueToStringFormatConverter.cs" />
     <Compile Include="Models\IconFontCollectionModel.cs" />
@@ -106,6 +107,7 @@
     <Compile Include="ViewModels\AppSettingViewModel.cs" />
     <Compile Include="ViewModels\IconFontCollectionViewModel.cs" />
     <Compile Include="ViewModels\IconFontFavoritesViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\AppSettingView.xaml.cs">
       <DependentUpon>AppSettingView.xaml</DependentUpon>

@@ -17,6 +17,21 @@ namespace IconFontCollection {
 	public class IconFontCollectionModel : INotifyPropertyChanged {
 
 		/// <summary>
+		///		Represents the folder of local.
+		/// </summary>
+		private static readonly StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+
+		/// <summary>
+		///		Represents the file name of registered favorite list.
+		/// </summary>
+		private const string favoriteFilename = "favorite.dat";
+
+		/// <summary>
+		///		Represents the lock object for async.
+		/// </summary>
+		private static AsyncLock locker = new AsyncLock();
+
+		/// <summary>
 		///		Gets the dictionary list that contains IconFonts.
 		/// </summary>
 		public Dictionary<string, IconFontItem> Items { get; private set; }
@@ -32,20 +47,20 @@ namespace IconFontCollection {
 					Items[item.CodeKey] = item;
 				}
 			}
-			LoadFavoriteList();
 		}
 
 		/// <summary>
 		///		Load registered favorite list from local file.
 		/// </summary>
-		public async Task LoadFavoriteList() {
+		public async Task LoadFavoriteAsync() {
 			try {
-				StorageFolder localFolder = ApplicationData.Current.LocalFolder;
-				var localFile = await localFolder.TryGetItemAsync( "favorite.dat" );
-				if( localFile != null && localFile is IStorageFile ) {
-					foreach( var codeKey in await FileIO.ReadLinesAsync( ( IStorageFile )localFile ) ) {
-						if( Items.ContainsKey( codeKey ) ) {
-							Items[codeKey].IsFavorite = true;
+				using( await locker.LockAsync() ) {
+					var localFile = await localFolder.TryGetItemAsync( favoriteFilename );
+					if( localFile != null && localFile is IStorageFile ) {
+						foreach( var codeKey in await FileIO.ReadLinesAsync( ( IStorageFile )localFile ) ) {
+							if( Items.ContainsKey( codeKey ) ) {
+								Items[codeKey].IsFavorite = true;
+							}
 						}
 					}
 				}
@@ -58,11 +73,21 @@ namespace IconFontCollection {
 		/// </summary>
 		public async Task SaveFavoriteList() {
 			try {
-				StorageFolder localFolder = ApplicationData.Current.LocalFolder;
-				var localFile = await localFolder.CreateFileAsync( "favorite.dat", CreationCollisionOption.ReplaceExisting );
-				await FileIO.WriteLinesAsync( localFile, Items.Where( _ => _.Value.IsFavorite ).Select( _ => _.Key ) );
+				using( await locker.LockAsync() ) {
+					var localFile = await localFolder.CreateFileAsync( favoriteFilename, CreationCollisionOption.ReplaceExisting );
+					await FileIO.WriteLinesAsync( localFile, Items.Where( _ => _.Value.IsFavorite ).Select( _ => _.Key ) );
+				}
 			}
 			catch( Exception ) {}
+		}
+
+		/// <summary>
+		///		Wait until all file I/O completion.
+		/// </summary>
+		public async Task WaitFileIOAsync() {
+			using( await locker.LockAsync() ) {
+				return;
+			}
 		}
 
 		/// <summary>

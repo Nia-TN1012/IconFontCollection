@@ -15,7 +15,7 @@ namespace IconFontCollection {
 	class AppSettingViewModel : INotifyPropertyChanged {
 
 		/// <summary>
-		///		IconFontCollectionModel
+		///		Represents the IconFontCollectionModel.
 		/// </summary>
 		private IconFontCollectionModel model;
 
