@@ -6,16 +6,17 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
+
 	/// <summary>
 	///		Provides application-specific behavior to supplement the default Application class.
 	/// </summary>
 	sealed partial class App : Application {
 
 		/// <summary>
-		///		Gets IconFontCollectionModel instance.
+		///		Gets the <see cref="IconFontCollectionModel"/> instance.
 		/// </summary>
 		public IconFontCollectionModel Model { get; }
 
@@ -31,7 +32,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Invoked when the application is launched normally by the end user.  Other entry points
+		///		Invoked when the application is launched normally by the end user. Other entry points
 		///		will be used such as when the application is launched to open a specific file.
 		/// </summary>
 		/// <param name="e">Details about the launch request and process.</param>
