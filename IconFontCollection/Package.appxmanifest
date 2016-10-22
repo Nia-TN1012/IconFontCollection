@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="f658669c-6195-4540-b483-d626723fc47b" Publisher="CN=TOMO-NAKA" Version="1.0.0.0" />
+  <Identity Name="30069NiaTomonaka.IconFontCollection" Publisher="CN=A5B1B624-0B64-44B9-9815-39BE22557436" Version="1.1.0.0" />
   <mp:PhoneIdentity PhoneProductId="f658669c-6195-4540-b483-d626723fc47b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>IconFontCollection</DisplayName>
-    <PublisherDisplayName>TOMO-NAKA</PublisherDisplayName>
+    <DisplayName>IconFont Collection</DisplayName>
+    <PublisherDisplayName>Nia Tomonaka</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
