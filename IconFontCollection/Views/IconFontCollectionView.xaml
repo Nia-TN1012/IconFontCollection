@@ -91,7 +91,7 @@
 
 									<Border Grid.Row="0"
 											Style="{StaticResource FrameBorderStyleKey}"
-											Padding="10" Width="80" Height="80">
+											Padding="5" Width="80" Height="80">
 										<FontIcon Margin="5"
 												  HorizontalAlignment="Center" VerticalAlignment="Center"
 												  FontFamily="{ThemeResource SymbolThemeFontFamily}"
@@ -104,8 +104,9 @@
 											<ColumnDefinition Width="Auto"/>
 										</Grid.ColumnDefinitions>
 
-										<TextBlock Grid.Column="0" Padding="10,0"
-												   TextAlignment="Center" VerticalAlignment="Center"
+										<TextBlock Grid.Column="0" Padding="5,0"
+												   HorizontalAlignment="Center" VerticalAlignment="Center"
+												   TextAlignment="Center"
 												   Text="{Binding CodeKey}"/>
 
 										<Button x:Uid="SetFavoriteItem"
@@ -133,9 +134,10 @@
 			</SemanticZoom.ZoomedInView>
 		</SemanticZoom>
 
-		<Grid Grid.Row="1">
+		<Grid x:Name="SelectedIconFontPanel"
+			  Grid.Row="1">
 			<Grid.ColumnDefinitions>
-				<ColumnDefinition Width="Auto" MinWidth="120"/>
+				<ColumnDefinition Width="Auto"/>
 				<ColumnDefinition Width="*"/>
 			</Grid.ColumnDefinitions>
 
@@ -153,8 +155,7 @@
 
 					<Border Grid.Row="1"
 							Style="{StaticResource FrameBorderStyleKey}">
-						<FontIcon Grid.Row="1"
-								  Width="120"
+						<FontIcon Grid.Row="1" Width="120"
 								  HorizontalAlignment="Center" VerticalAlignment="Center"
 								  FontFamily="{ThemeResource SymbolThemeFontFamily}"
 								  FontSize="64"
@@ -236,5 +237,26 @@
 				</Grid>
 			</Border>
 		</Grid>
+
+		<VisualStateManager.VisualStateGroups>
+			<VisualStateGroup>
+				<VisualState x:Name="LargeState">
+					<VisualState.StateTriggers>
+						<AdaptiveTrigger MinWindowWidth="480" MinWindowHeight="480"/>
+					</VisualState.StateTriggers>
+					<VisualState.Setters>
+						<Setter Target="SelectedIconFontPanel.Visibility" Value="Visible"/>
+					</VisualState.Setters>
+				</VisualState>
+				<VisualState x:Name="SmallState">
+					<VisualState.StateTriggers>
+						<AdaptiveTrigger MinWindowWidth="0" MinWindowHeight="0"/>
+					</VisualState.StateTriggers>
+					<VisualState.Setters>
+						<Setter Target="SelectedIconFontPanel.Visibility" Value="Collapsed"/>
+					</VisualState.Setters>
+				</VisualState>
+			</VisualStateGroup>
+		</VisualStateManager.VisualStateGroups>
 	</Grid>
 </Page>

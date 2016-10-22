@@ -30,6 +30,23 @@
 									   HorizontalAlignment="Left"
 									   Source="ms-appx:///Assets/UserGuide/icon_character_code.png"/>
 
+								<Border Style="{StaticResource YellowMaterialBorderStyleKey}">
+									<StackPanel>
+										<TextBlock x:Uid="GuideMobileUsing"
+												   Margin="5"
+												   FontSize="{ThemeResource ContentControlFontSize}"
+												   FontWeight="Bold" Foreground="Orange"
+												   TextWrapping="Wrap"/>
+										<TextBlock Margin="5"
+												   FontSize="{ThemeResource ContentControlFontSize}"
+												   TextWrapping="Wrap">
+											<Run x:Uid="GuideMobileUsing1"/><LineBreak/>
+											<Run x:Uid="GuideMobileUsing2"/>
+											<Run x:Uid="GuideMobileUsing3"/>
+										</TextBlock>
+									</StackPanel>
+								</Border>
+								
 								<TextBlock x:Uid="ButtonDescriptionLabel"
 										   Margin="5" TextWrapping="Wrap"/>
 								<Grid Margin="5">
@@ -286,6 +303,8 @@
 										   Source="ms-appx:///Assets/UserGuide/settings.png"/>
 								</StackPanel>
 
+								<TextBlock x:Uid="ButtonDescriptionLabel"
+										   Margin="5" TextWrapping="Wrap"/>
 								<Grid Margin="5">
 									<Grid.RowDefinitions>
 										<RowDefinition Height="1*"/>

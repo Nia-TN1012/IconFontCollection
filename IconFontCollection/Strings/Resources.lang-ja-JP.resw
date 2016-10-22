@@ -201,6 +201,18 @@
   <data name="GuideFavoritesSummary.Text" xml:space="preserve">
     <value>本アプリには、よく使うアイコンフォントをお気に入りとして登録する機能があります。</value>
   </data>
+  <data name="GuideMobileUsing.Text" xml:space="preserve">
+    <value>モバイルでご利用の場合</value>
+  </data>
+  <data name="GuideMobileUsing1.Text" xml:space="preserve">
+    <value>本アプリは、UWPアプリ開発用のツールのため、PC用に最適化されています。</value>
+  </data>
+  <data name="GuideMobileUsing2.Text" xml:space="preserve">
+    <value>モバイルでも利用可能ですが、ウィンドウの幅もしくは高さが480epx未満の時、上図のパネルが非表示になります。</value>
+  </data>
+  <data name="GuideMobileUsing3.Text" xml:space="preserve">
+    <value>（表示したい場合、「Continuum for phone」を利用し、外部モニターに本アプリのウィンドウを表示してください。）</value>
+  </data>
   <data name="GuideNavigation.Text" xml:space="preserve">
     <value>左上にあるハンバーガーボタンを押すと、ナビゲーションメニューを開きます。</value>
   </data>
