@@ -53,9 +53,11 @@
 										   Padding="5" 
 										   FontSize="{ThemeResource ContentControlFontSize}"
 										   TextWrapping="Wrap" Foreground="{ThemeResource SystemControlForegroundAccentBrush}"/>
-								<Image Margin="5" MaxHeight="300"
-									   HorizontalAlignment="Left" VerticalAlignment="Center"
-									   Source="ms-appx:///Assets/SplashScreen.png"/>
+								<Grid Margin="5" MaxHeight="300"
+									  HorizontalAlignment="Left" VerticalAlignment="Center"
+									  Background="{ThemeResource SystemControlBackgroundAccentBrush}">
+									<Image Source="ms-appx:///Assets/SplashScreen.png"/>
+								</Grid>
 								<TextBlock x:Uid="AppTitle"
 										   Padding="5,5,5,1"  
 										   FontSize="{ThemeResource ListViewHeaderItemThemeFontSize}"
@@ -86,7 +88,7 @@
 								<TextBlock Padding="5,1,5,5" 
 										   FontSize="{ThemeResource ContentControlFontSize}"
 										   TextWrapping="Wrap">
-									&#x00A9; 2016 Chronoir.net / &#x00A9; 2016 Nia's Atelier<LineBreak/>
+									&#x00A9; 2016 Chronoir.net<LineBreak/>
 									WebSite :  
 									<Hyperlink NavigateUri="https://chronoir.net/">
 										<Run Text="Chronoir.net"/>

@@ -124,10 +124,13 @@
     <value>アプリについて</value>
   </data>
   <data name="AppDescription.Text" xml:space="preserve">
-    <value>アイコンフォント これくしょんは、UWPアプリで利用可能なアイコンフォントの一覧を表示します。</value>
+    <value>アイコンフォント これくしょんは、UWPアプリで利用可能なアイコンフォント（Segoe MDL2 Assets）の一覧を表示します。</value>
   </data>
   <data name="AppLicence.Text" xml:space="preserve">
     <value>アイコンフォント これくしょんは、オープンソース（ BSD Licence ( 2-clause ) ）の下で公開されています。</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>アイコンフォント これくしょん</value>
   </data>
   <data name="AppSettingViewPage.Tag" xml:space="preserve">
     <value>アプリの設定</value>

@@ -124,10 +124,13 @@
     <value>About</value>
   </data>
   <data name="AppDescription.Text" xml:space="preserve">
-    <value>IconFont Collection is App that displays a list of icon fonts for development of UWP Applications.</value>
+    <value>IconFont Collection is App that displays a list of icon fonts (Segoe MDL2 Assets) for development of UWP App.</value>
   </data>
   <data name="AppLicence.Text" xml:space="preserve">
     <value>IconFont Collection is released under an open source (BSD Licence (2-clause)).</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>IconFont Collection</value>
   </data>
   <data name="AppSettingViewPage.Tag" xml:space="preserve">
     <value>Settings</value>

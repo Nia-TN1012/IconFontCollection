@@ -132,6 +132,7 @@
     <None Include="IconFontCollection_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Chronoir-logo.png" />
     <Content Include="Assets\UserGuide\favorite.lang-ja-JP.png" />
     <Content Include="Assets\UserGuide\favorite.lang-en-US.png" />
     <Content Include="Assets\UserGuide\group.lang-ja-JP.png" />
