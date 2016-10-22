@@ -37,6 +37,11 @@ namespace IconFontCollection {
 		public Dictionary<string, IconFontItem> Items { get; private set; }
 
 		/// <summary>
+		///		Represents the sequence of the registered favorites loaded from local.
+		/// </summary>
+		private IEnumerable<string> registeredFavoritesLocal;
+
+		/// <summary>
 		///		Creates a new instance of the IconFontCollectionModel class.
 		/// </summary>
 		public IconFontCollectionModel() {
@@ -57,7 +62,8 @@ namespace IconFontCollection {
 				using( await locker.LockAsync() ) {
 					var localFile = await localFolder.TryGetItemAsync( favoriteFilename );
 					if( localFile != null && localFile is IStorageFile ) {
-						foreach( var codeKey in await FileIO.ReadLinesAsync( ( IStorageFile )localFile ) ) {
+						registeredFavoritesLocal = await FileIO.ReadLinesAsync( ( IStorageFile )localFile );
+						foreach( var codeKey in registeredFavoritesLocal ) {
 							if( Items.ContainsKey( codeKey ) ) {
 								Items[codeKey].IsFavorite = true;
 							}
@@ -73,9 +79,12 @@ namespace IconFontCollection {
 		/// </summary>
 		public async Task SaveFavoriteList() {
 			try {
-				using( await locker.LockAsync() ) {
-					var localFile = await localFolder.CreateFileAsync( favoriteFilename, CreationCollisionOption.ReplaceExisting );
-					await FileIO.WriteLinesAsync( localFile, Items.Where( _ => _.Value.IsFavorite ).Select( _ => _.Key ) );
+				var registeredFavorites = Items.Where( _ => _.Value.IsFavorite ).Select( _ => _.Key );
+				if( !registeredFavorites.SequenceEqual( registeredFavoritesLocal ?? Enumerable.Empty<string>() ) ) {
+					using( await locker.LockAsync() ) {
+						var localFile = await localFolder.CreateFileAsync( favoriteFilename, CreationCollisionOption.ReplaceExisting );
+						await FileIO.WriteLinesAsync( localFile, registeredFavorites );
+					}
 				}
 			}
 			catch( Exception ) {}
