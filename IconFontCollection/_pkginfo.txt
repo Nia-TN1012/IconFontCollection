@@ -1,1 +1,1 @@
-D:\04 visualproject\Nia's Atelier\IconFontCollection\IconFontCollection\AppPackages\IconFontCollection_1.1.1.0\IconFontCollection_1.1.1.0_x86_x64_arm.appxbundle
+D:\04 visualproject\Nia's Atelier\IconFontCollection\IconFontCollection\AppPackages\IconFontCollection_1.1.2.0\IconFontCollection_1.1.2.0_x86_x64_arm.appxbundle
