@@ -22,7 +22,7 @@ namespace IconFontCollection {
 		/// <param name="language">Language ( Not using )</param>
 		/// <returns>Character code of the favorite icon</returns>
 		public object Convert( object value, Type targetType, object parameter, string language ) =>
-			value is bool && ( bool )value ? char.ConvertFromUtf32( 0xE735 ) : char.ConvertFromUtf32( 0xE734 );
+			value is bool && ( bool )value ? '\uE735' : '\uE734';
 
 		/// <summary>
 		///		This method is not using. always returns null.

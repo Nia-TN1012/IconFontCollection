@@ -159,6 +159,21 @@
   <data name="CollectionPivotItem.Header" xml:space="preserve">
     <value>コレクションを見る</value>
   </data>
+  <data name="ConfrimDialogCleasrFavorites" xml:space="preserve">
+    <value>登録済みのお気に入りをすべて解除してよろしいですか？</value>
+  </data>
+  <data name="ConfrimDialogNo" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="ConfrimDialogRestoreFavorites" xml:space="preserve">
+    <value>ローカルに保存されている登録済みのお気に入りを復元しますか？</value>
+  </data>
+  <data name="ConfrimDialogTitle" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="ConfrimDialogYes" xml:space="preserve">
+    <value>はい</value>
+  </data>
   <data name="CopyClipboardButton.ToolTipService.ToolTip" xml:space="preserve">
     <value>クリップボードにコピー</value>
   </data>
@@ -245,6 +260,15 @@
   </data>
   <data name="OriginalValueLabel.Text" xml:space="preserve">
     <value>元の値</value>
+  </data>
+  <data name="RestoreLocalFavoritesButton.Content" xml:space="preserve">
+    <value>お気に入りを復元</value>
+  </data>
+  <data name="RestoreLocalFavoritesButtonDescription.Text" xml:space="preserve">
+    <value>ローカルに保存されている登録済みのお気に入りを復元します。</value>
+  </data>
+  <data name="RestoreLocalFavoritesButtonLabel.Text" xml:space="preserve">
+    <value>お気に入りを復元</value>
   </data>
   <data name="SetFavoriteItem.ToolTipService.ToolTip" xml:space="preserve">
     <value>お気に入り</value>

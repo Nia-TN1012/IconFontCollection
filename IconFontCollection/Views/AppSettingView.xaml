@@ -9,7 +9,7 @@
     mc:Ignorable="d">
 
 	<Page.DataContext>
-		<local:AppSettingViewModel/>
+		<local:AppSettingViewModel ComfirmationActionRun="AppSettingViewModel_ComfirmationActionRun"/>
 	</Page.DataContext>
 
 	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -37,6 +37,13 @@
 											<Run x:Uid="ClearAllRegisteredFavoriteNote"/>
 										</TextBlock>
 									</Border>
+									<Button x:Uid="RestoreLocalFavoritesButton"
+											Margin="5,15,5,5"
+											Command="{Binding RestoreLocalFavorites}"/>
+									<TextBlock x:Uid="RestoreLocalFavoritesButtonDescription"
+											   Margin="5"
+											   FontSize="{ThemeResource ContentControlFontSize}"
+											   TextWrapping="Wrap"/>
 								</StackPanel>
 							</StackPanel>
 						</Border>

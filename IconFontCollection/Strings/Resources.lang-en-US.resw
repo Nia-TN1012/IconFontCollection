@@ -159,6 +159,21 @@
   <data name="CollectionPivotItem.Header" xml:space="preserve">
     <value>Views Collection</value>
   </data>
+  <data name="ConfrimDialogCleasrFavorites" xml:space="preserve">
+    <value>Are you sure you want to cancel all the registered favorites?</value>
+  </data>
+  <data name="ConfrimDialogNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ConfrimDialogRestoreFavorites" xml:space="preserve">
+    <value>Are you sure you want to restore the favorites from local?</value>
+  </data>
+  <data name="ConfrimDialogTitle" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ConfrimDialogYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
   <data name="CopyClipboardButton.ToolTipService.ToolTip" xml:space="preserve">
     <value>Copy to clipboard</value>
   </data>
@@ -245,6 +260,15 @@
   </data>
   <data name="OriginalValueLabel.Text" xml:space="preserve">
     <value>Original Value</value>
+  </data>
+  <data name="RestoreLocalFavoritesButton.Content" xml:space="preserve">
+    <value>Restore the favorites from local</value>
+  </data>
+  <data name="RestoreLocalFavoritesButtonDescription.Text" xml:space="preserve">
+    <value>Restores the favorites from local loaded in starting app.</value>
+  </data>
+  <data name="RestoreLocalFavoritesButtonLabel.Text" xml:space="preserve">
+    <value>Restore the favorites from local</value>
   </data>
   <data name="SetFavoriteItem.ToolTipService.ToolTip" xml:space="preserve">
     <value>Favorite</value>

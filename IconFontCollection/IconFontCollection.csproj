@@ -95,13 +95,14 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <None Include="IconFontCollection_StoreKey.pfx" />
     <None Include="project.json" />
-    <PRIResource Include="Strings\Resources.lang-en-US.resw" />
     <PRIResource Include="Strings\Resources.lang-ja-JP.resw" />
+    <PRIResource Include="Strings\Resources.lang-en-US.resw" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Common\AppCommon.cs" />
     <Compile Include="Common\AsyncLock.cs" />
     <Compile Include="Common\BoolToFavoriteIconConverter.cs" />
     <Compile Include="Common\ValueToStringFormatConverter.cs" />

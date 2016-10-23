@@ -109,6 +109,19 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
+		///		Restore the favorites from local.
+		/// </summary>
+		public void RestoreLocalFavorites() {
+			ClearAllFavorites();
+			var registeredFavorites = Items.Where( _ => _.Value.IsFavorite ).Select( _ => _.Key );
+			if( registeredFavoritesLocal != null && !registeredFavorites.SequenceEqual( registeredFavoritesLocal ) ) {
+				foreach( var codeKey in registeredFavoritesLocal ) {
+					Items[codeKey].IsFavorite = true;
+				}
+			}
+		}
+
+		/// <summary>
 		///		The event handler to be generated after the property changes.
 		/// </summary>
 		public event PropertyChangedEventHandler PropertyChanged;

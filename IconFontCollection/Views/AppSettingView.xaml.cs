@@ -1,4 +1,7 @@
-﻿using Windows.UI.Core;
+﻿using System;
+using Windows.ApplicationModel.Resources;
+using Windows.UI.Core;
+using Windows.UI.Popups;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
@@ -54,6 +57,23 @@ namespace IconFontCollection {
 			if( Frame.CanGoBack ) {
 				Frame.GoBack();
 				e.Handled = true;
+			}
+		}
+
+		/// <summary>
+		///		Invoke when the confirmation action has run.
+		/// </summary>
+		private async void AppSettingViewModel_ComfirmationActionRun( object sender, ComfirmmationActionRunEventArgs e ) {
+			var resource = ResourceLoader.GetForCurrentView();
+
+			var confirmDialog = new MessageDialog( e.Message, resource.GetString( "ConfrimDialogTitle" ) );
+			confirmDialog.Commands.Add( new UICommand( resource.GetString( "ConfrimDialogYes" ) ) );
+			confirmDialog.Commands.Add( new UICommand( resource.GetString( "ConfrimDialogNo" ) ) );
+			confirmDialog.DefaultCommandIndex = 1;
+
+			var result = await confirmDialog.ShowAsync();
+			if( result.Label == resource.GetString( "ConfrimDialogYes" ) ) {
+				e.Callback?.Invoke();
 			}
 		}
 	}
