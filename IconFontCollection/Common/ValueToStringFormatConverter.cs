@@ -1,4 +1,29 @@
-﻿using System;
+﻿#region Version info.
+/**
+*	@file ValueToStringFormatConverter.cs
+*	@brief Provides the converters to convert a value for the character code.
+*
+*	@par Version
+*	1.1.0
+*	@par Author
+*	Nia Tomonaka
+*	@par Copyright
+*	Copyright (C) 2016 Chronoir.net
+*	@par Created date
+*	2016/10/23
+*	@par Last update date
+*	2016/10/23
+*	@par Licence
+*	BSD Licence（ 2-caluse ）
+*	@par Contact
+*	@@nia_tn1012（ https://twitter.com/nia_tn1012/ ）
+*	@par Homepage
+*	- http://chronoir.net/ ( Homepage )
+*	- https://github.com/Nia-TN1012/IconFontCollection ( GitHub )
+*/
+#endregion
+
+using System;
 using System.Globalization;
 using Windows.UI.Xaml.Data;
 
@@ -8,12 +33,12 @@ using Windows.UI.Xaml.Data;
 namespace IconFontCollection {
 
 	/// <summary>
-	///		Provides two methods whitch converts the value in accordance with the specified format and culture information.
+	///		Provides the method whitch converts a value in accordance with the specified format and culture information.
 	/// </summary>
 	public sealed class ValueToStringFormatConverter : IValueConverter {
 
 		/// <summary>
-		///		Converts the value in accordance with the specified format and culture information.
+		///		Converts a value in accordance with the specified format and culture information.
 		/// </summary>
 		/// <param name="value">Source value</param>
 		/// <param name="targetType">Target type</param>
@@ -44,12 +69,12 @@ namespace IconFontCollection {
 	}
 
 	/// <summary>
-	///		Provides two methods whitch converts the value to the <see cref="Windows.UI.Xaml.Controls.FontIcon.Glyph"/> of <see cref="Windows.UI.Xaml.Controls.FontIcon"/>.
+	///		Provides the method whitch converts a value to the <see cref="Windows.UI.Xaml.Controls.FontIcon.Glyph"/> of <see cref="Windows.UI.Xaml.Controls.FontIcon"/>.
 	/// </summary>
 	public sealed class ValueToFontIconGlyphConverter : IValueConverter {
 
 		/// <summary>
-		///		Converts the value to the <see cref="Windows.UI.Xaml.Controls.FontIcon.Glyph"/> of <see cref="Windows.UI.Xaml.Controls.FontIcon"/>.
+		///		Converts a value to the <see cref="Windows.UI.Xaml.Controls.FontIcon.Glyph"/> of <see cref="Windows.UI.Xaml.Controls.FontIcon"/>.
 		/// </summary>
 		/// <param name="value">Source value</param>
 		/// <param name="targetType">Target type</param>

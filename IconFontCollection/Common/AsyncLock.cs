@@ -1,4 +1,29 @@
-﻿using System;
+﻿#region Version info.
+/**
+*	@file AsyncLock.cs
+*	@brief Provides the function of exclusive control of asynchronous processing using the "using" statement.
+*
+*	@par Version
+*	1.1.0
+*	@par Author
+*	Nia Tomonaka
+*	@par Copyright
+*	Copyright (C) 2016 Chronoir.net
+*	@par Created date
+*	2016/10/23
+*	@par Last update date
+*	2016/10/23
+*	@par Licence
+*	BSD Licence（ 2-caluse ）
+*	@par Contact
+*	@@nia_tn1012（ https://twitter.com/nia_tn1012/ ）
+*	@par Homepage
+*	- http://chronoir.net/ ( Homepage )
+*	- https://github.com/Nia-TN1012/IconFontCollection ( GitHub )
+*/
+#endregion
+
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 

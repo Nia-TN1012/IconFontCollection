@@ -114,7 +114,7 @@
     <Compile Include="ViewModels\IconFontCollectionViewModel.cs" />
     <Compile Include="ViewModels\IconFontFavoritesViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
-    <Compile Include="ViewModels\ViewModelBase.cs" />
+    <Compile Include="ViewModels\IconFontViewModelBase.cs" />
     <Compile Include="Views\AppSettingView.xaml.cs">
       <DependentUpon>AppSettingView.xaml</DependentUpon>
     </Compile>

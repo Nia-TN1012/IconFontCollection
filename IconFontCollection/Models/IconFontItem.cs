@@ -1,8 +1,33 @@
-﻿using System.ComponentModel;
+﻿#region Version info.
+/**
+*	@file IconFontItem.cs
+*	@brief Represents a item of IconFont.
+*
+*	@par Version
+*	1.1.0
+*	@par Author
+*	Nia Tomonaka
+*	@par Copyright
+*	Copyright (C) 2016 Chronoir.net
+*	@par Created date
+*	2016/10/23
+*	@par Last update date
+*	2016/10/23
+*	@par Licence
+*	BSD Licence（ 2-caluse ）
+*	@par Contact
+*	@@nia_tn1012（ https://twitter.com/nia_tn1012/ ）
+*	@par Homepage
+*	- http://chronoir.net/ ( Homepage )
+*	- https://github.com/Nia-TN1012/IconFontCollection ( GitHub )
+*/
+#endregion
+
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 /// <summary>
-///		IconFontCollection namespace
+///		<see cref="IconFontCollection"/> namespace
 /// </summary>
 namespace IconFontCollection {
 

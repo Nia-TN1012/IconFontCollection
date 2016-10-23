@@ -1,4 +1,29 @@
-﻿using System;
+﻿#region Version info.
+/**
+*	@file BoolToFavoriteIconConverter.cs
+*	@brief Provides the converters to convert a bool value for the favorites.
+*
+*	@par Version
+*	1.1.0
+*	@par Author
+*	Nia Tomonaka
+*	@par Copyright
+*	Copyright (C) 2016 Chronoir.net
+*	@par Created date
+*	2016/10/23
+*	@par Last update date
+*	2016/10/23
+*	@par Licence
+*	BSD Licence（ 2-caluse ）
+*	@par Contact
+*	@@nia_tn1012（ https://twitter.com/nia_tn1012/ ）
+*	@par Homepage
+*	- http://chronoir.net/ ( Homepage )
+*	- https://github.com/Nia-TN1012/IconFontCollection ( GitHub )
+*/
+#endregion
+
+using System;
 using Windows.UI;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
@@ -9,12 +34,12 @@ using Windows.UI.Xaml.Media;
 namespace IconFontCollection {
 
 	/// <summary>
-	///		Converts the bool value to the character code of the favorite icon.
+	///		Provides the method that converts a bool value to the character code of the favorite icon.
 	/// </summary>
 	public sealed class BoolToFavoriteIconContentConverter : IValueConverter {
 
 		/// <summary>
-		///		Converts the bool value to the character code of the favorite icon.
+		///		Converts a bool value to the character code of the favorite icon.
 		/// </summary>
 		/// <param name="value">Bool value</param>
 		/// <param name="targetType">Target type ( Not using )</param>
@@ -31,7 +56,7 @@ namespace IconFontCollection {
 	}
 
 	/// <summary>
-	///		Converts the bool value to the color of the favorite icon.
+	///		Provides the method that converts a bool value to the color of the favorite icon.
 	/// </summary>
 	public sealed class BoolToFavoriteIconColorConverter : IValueConverter {
 
@@ -46,7 +71,7 @@ namespace IconFontCollection {
 		private static readonly Brush NonFavoriteColor = new SolidColorBrush( Colors.Gray );
 
 		/// <summary>
-		///		Converts the bool value to the color of the favorite icon.
+		///		Converts a bool value to the color of the favorite icon.
 		/// </summary>
 		/// <param name="value">Bool value</param>
 		/// <param name="targetType">Target type ( Not using )</param>
