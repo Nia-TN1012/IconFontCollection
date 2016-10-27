@@ -255,6 +255,9 @@
   <data name="NavigationPivotItem.Header" xml:space="preserve">
     <value>ナビゲーションメニュー</value>
   </data>
+  <data name="NoteLabel.Text" xml:space="preserve">
+    <value>Note</value>
+  </data>
   <data name="OriginalValueDescription.Text" xml:space="preserve">
     <value>元の文字コード（16進数）</value>
   </data>

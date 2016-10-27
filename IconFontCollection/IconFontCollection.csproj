@@ -95,6 +95,7 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <None Include="IconFontCollection_StoreKey.pfx" />
     <None Include="project.json" />
+    <PRIResource Include="Strings\Resources.lang-de.resw" />
     <PRIResource Include="Strings\Resources.lang-ja-JP.resw" />
     <PRIResource Include="Strings\Resources.lang-en-US.resw" />
   </ItemGroup>

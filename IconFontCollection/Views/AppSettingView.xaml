@@ -32,8 +32,8 @@
 										<TextBlock Margin="5"
 												   FontSize="{ThemeResource ContentControlFontSize}"
 												   TextWrapping="Wrap">
-											<Run FontWeight="Bold" Foreground="Orange"
-												 Text="Note"/><LineBreak/>
+											<Run x:Uid="NoteLabel"
+												 FontWeight="Bold" Foreground="Orange"/><LineBreak/>
 											<Run x:Uid="ClearAllRegisteredFavoriteNote"/>
 										</TextBlock>
 									</Border>

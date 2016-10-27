@@ -118,207 +118,207 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutAppLabel.Text" xml:space="preserve">
-    <value>About App</value>
+    <value>Über Anwendung</value>
   </data>
   <data name="AboutPivot.Header" xml:space="preserve">
-    <value>About</value>
+    <value>Über</value>
   </data>
   <data name="AppDescription.Text" xml:space="preserve">
-    <value>IconFont Collection is App that displays a list of icon fonts (Segoe MDL2 Assets) for development of UWP App.</value>
+    <value>SymbolSchrift Sammlung und zeigt dann eine Liste der UWP Anwendung verfügbar in der Icon-Schrift (Segoe MDL2 Assets).</value>
   </data>
   <data name="AppLicence.Text" xml:space="preserve">
-    <value>IconFont Collection is released under an open source (BSD Licence (2-clause)).</value>
+    <value>SymbolSchrift Sammlung wird unter einer Open-Source veröffentlicht (BSD-Lizenz (2-Klausel)).</value>
   </data>
   <data name="AppName" xml:space="preserve">
-    <value>IconFont Collection</value>
+    <value>SymbolSchrift Sammlung</value>
   </data>
   <data name="AppSettingViewPage.Tag" xml:space="preserve">
-    <value>Settings</value>
+    <value>Einstellungen</value>
   </data>
   <data name="AppTitle.Text" xml:space="preserve">
-    <value>IconFont Collection</value>
+    <value>SymbolSchrift Sammlung</value>
   </data>
   <data name="ButtonDescriptionLabel.Text" xml:space="preserve">
-    <value>Buttons</value>
+    <value>Knopf</value>
   </data>
   <data name="CharacterCodeLabel.Text" xml:space="preserve">
-    <value>Character Code</value>
+    <value>Zeichencode</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButton.Content" xml:space="preserve">
-    <value>Clear all registered favorite</value>
+    <value>Löschen Sie alle registrierten Favoriten</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButtonDescription.Text" xml:space="preserve">
-    <value>Clears all registered favorite IconFonts.</value>
+    <value>Löscht alle registrierten Favoriten SymbolSchriften.</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButtonLabel.Text" xml:space="preserve">
-    <value>Clear all registered favorite</value>
+    <value>Löschen Sie alle registrierten Favoriten</value>
   </data>
   <data name="ClearAllRegisteredFavoriteNote.Text" xml:space="preserve">
-    <value>To save the changes, please close the app.</value>
+    <value>Schließen Sie die Anwendung, um die Änderungen zu speichern.</value>
   </data>
   <data name="CollectionPivotItem.Header" xml:space="preserve">
-    <value>Views Collection</value>
+    <value>Ansichten Sammlung</value>
   </data>
   <data name="ConfrimDialogCleasrFavorites" xml:space="preserve">
-    <value>Are you sure you want to cancel all the registered favorites?</value>
+    <value>Möchten Sie die registrierten Favoriten wirklich löschen?</value>
   </data>
   <data name="ConfrimDialogNo" xml:space="preserve">
-    <value>No</value>
+    <value>Nein</value>
   </data>
   <data name="ConfrimDialogRestoreFavorites" xml:space="preserve">
-    <value>Are you sure you want to restore the favorites from local?</value>
+    <value>Sind Sie sicher, dass Sie die Favoriten von der lokalen wiederherstellen möchten?</value>
   </data>
   <data name="ConfrimDialogTitle" xml:space="preserve">
-    <value>Confirm</value>
+    <value>Bestätigen</value>
   </data>
   <data name="ConfrimDialogYes" xml:space="preserve">
-    <value>Yes</value>
+    <value>Ja</value>
   </data>
   <data name="CopyClipboardButton.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Copy to clipboard</value>
+    <value>In die Zwischenablage kopieren</value>
   </data>
   <data name="CopyClipboardButtonDescription.Text" xml:space="preserve">
-    <value>Copy the string in the text box to clipboard.</value>
+    <value>Kopieren Sie die Zeichenfolge in das Textfeld in die Zwischenablage.</value>
   </data>
   <data name="CopyClipboardButtonLabel.Text" xml:space="preserve">
-    <value>Copy to clipboard</value>
+    <value>In die Zwischenablage kopieren</value>
   </data>
   <data name="FavoriteIconLabel.Text" xml:space="preserve">
-    <value>Favorite icon</value>
+    <value>Lieblings-Symbol</value>
   </data>
   <data name="FavoritesPivotItem.Header" xml:space="preserve">
-    <value>Views Favorites</value>
+    <value>Ansichten Favoriten</value>
   </data>
   <data name="ForCodeBehindDescription.Text" xml:space="preserve">
     <value>Character code formatted for Code-behind</value>
   </data>
   <data name="ForCodeBehindLabel.Text" xml:space="preserve">
-    <value>For Code-behind</value>
+    <value>Für Code-behind</value>
   </data>
   <data name="ForXAMLDescription.Text" xml:space="preserve">
-    <value>Character code formatted for XAML</value>
+    <value>Zeichencode für XAML formatiert</value>
   </data>
   <data name="ForXAMLLabel.Text" xml:space="preserve">
-    <value>For XAML</value>
+    <value>Für XAML</value>
   </data>
   <data name="GuideCollection.Text" xml:space="preserve">
-    <value>When the app start, navigate to Collection page that displays the list of IconFonts.</value>
+    <value>Wenn die Anwendung gestartet wird, navigieren Sie zur Sammlung Seite, die die Liste der SymbolSchriften anzeigt.</value>
   </data>
   <data name="GuideCollectionPanel.Text" xml:space="preserve">
-    <value>The panel below the list displays the icon and the character code of the selected IconFont.</value>
+    <value>Das Bedienfeld unterhalb der Liste zeigt das Symbol und den Zeichencode des ausgewählten SymbolSchriften an.</value>
   </data>
   <data name="GuideFavorites.Text" xml:space="preserve">
-    <value>Favorites page displays the list of IconFonts registered in the favorites.</value>
+    <value>Die Favoriten-Seite zeigt die Liste der in den Favoriten registrierten SymbolSchriften an.</value>
   </data>
   <data name="GuideFavoritesPanel.Text" xml:space="preserve">
-    <value>The panel below the list displays the icon and the character code of the selected IconFont.</value>
+    <value>Das Bedienfeld unterhalb der Liste zeigt das Symbol und den Zeichencode des ausgewählten SymbolSchriften an.</value>
   </data>
   <data name="GuideFavoritesSet.Text" xml:space="preserve">
-    <value>When you press the button of the star mark in the right-bottom corner of the item, and then registration and cancellation the IconFont to favorites.</value>
+    <value>Wenn Sie die Taste der Sternmarke in der rechten unteren Ecke des Elements drücken und dann Registrierung und Streichung der SymbolSchrift zu Favoriten.</value>
   </data>
   <data name="GuideFavoritesSummary.Text" xml:space="preserve">
-    <value>In this app, has the ability to register the frequently used IconFont as a favorite.</value>
+    <value>In dieser Anwendung hat es die Fähigkeit, die häufig verwendete SymbolSchriftart als Favorit zu registrieren.</value>
   </data>
   <data name="GuideMobileUsing.Text" xml:space="preserve">
-    <value>When using mobile device</value>
+    <value>Wenn Sie mit einem mobilen Endgerät</value>
   </data>
   <data name="GuideMobileUsing1.Text" xml:space="preserve">
-    <value>This app, that is the utility for development of UWP app, has been optimized for PC.</value>
+    <value>Diese Anwendung, die das Utility für die Entwicklung von UWP Anwendung ist, wurde für den PC optimiert.</value>
   </data>
   <data name="GuideMobileUsing2.Text" xml:space="preserve">
-    <value>It is also available on mobile device, but when the width or height of the window is less than 480epx, panel in the above figure is hidden.</value>
+    <value>Es ist auch auf mobilen Endgerät verfügbar, aber wenn die Breite oder Höhe des Fensters weniger als 480 epx ist, wird das Bedienfeld in der obigen Abbildung ausgeblendet.</value>
   </data>
   <data name="GuideMobileUsing3.Text" xml:space="preserve">
-    <value>( If you want to see it, please use 'Continuum for phone' on your mobile device and display the window of this app to an external monitor. )</value>
+    <value>(Wenn Sie es sehen möchten, verwenden Sie bitte "Continuum for phone" auf Ihrem mobilen Endgerät und das Fenster dieser Anwendung auf einem externen Monitor anzeigen.)</value>
   </data>
   <data name="GuideNavigation.Text" xml:space="preserve">
-    <value>When you press the hamburger button on the left-top, opens the navigation menu.</value>
+    <value>Wenn Sie die Hamburger-Knopf auf der linken Seite drücken, öffnet sich das Navigationsmenü.</value>
   </data>
   <data name="GuideSettings.Text" xml:space="preserve">
-    <value>In the Settings page, or made the settings, or to view information about the app.</value>
+    <value>Auf der Einstellungen Seite können Sie die Einstellungen vornehmen oder Informationen zur Anwendung anzeigen.</value>
   </data>
   <data name="IconFontCollectionViewPage.Tag" xml:space="preserve">
-    <value>IconFont Collection</value>
+    <value>SymbolSchrift Sammlung</value>
   </data>
   <data name="IconFontFavoritesViewPage.Tag" xml:space="preserve">
-    <value>Favorites</value>
+    <value>Favoriten</value>
   </data>
   <data name="IconLabel.Text" xml:space="preserve">
-    <value>Icon</value>
+    <value>Symbol</value>
   </data>
   <data name="IsNotRegiteredFavorites.Text" xml:space="preserve">
-    <value>Is not registered to favorites.</value>
+    <value>Ist nicht zu Favoriten registriert.</value>
   </data>
   <data name="IsRegiteredFavorites.Text" xml:space="preserve">
-    <value>Is registered to favorites.</value>
+    <value>Ist auf zu Favoriten registriert.</value>
   </data>
   <data name="NavigationPivotItem.Header" xml:space="preserve">
-    <value>Navigation menu</value>
+    <value>Navigationsmenü</value>
   </data>
   <data name="NoteLabel.Text" xml:space="preserve">
-    <value>Note</value>
+    <value>Hinweis</value>
   </data>
   <data name="OriginalValueDescription.Text" xml:space="preserve">
-    <value>Original character code ( Hexdecimal )</value>
+    <value>Ursprünglicher Zeichencode (Hexadezimal)</value>
   </data>
   <data name="OriginalValueLabel.Text" xml:space="preserve">
-    <value>Original Value</value>
+    <value>Originalwert</value>
   </data>
   <data name="RestoreLocalFavoritesButton.Content" xml:space="preserve">
-    <value>Restore the favorites from local</value>
+    <value>Wiederherstellen Sie die Favoriten von lokalen</value>
   </data>
   <data name="RestoreLocalFavoritesButtonDescription.Text" xml:space="preserve">
-    <value>Restores the favorites from local loaded in starting app.</value>
+    <value>Wiederherstellen Sie die Favoriten von lokalen, die in Start Anwendungen geladen wird.</value>
   </data>
   <data name="RestoreLocalFavoritesButtonLabel.Text" xml:space="preserve">
-    <value>Restore the favorites from local</value>
+    <value>Wiederherstellen Sie die Favoriten von lokalen</value>
   </data>
   <data name="SetFavoriteItem.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Favorite</value>
+    <value>Favorit</value>
   </data>
   <data name="SettingPivot.Header" xml:space="preserve">
-    <value>Settings</value>
+    <value>Einstellungen</value>
   </data>
   <data name="SettingsPivotItem.Header" xml:space="preserve">
-    <value>Setting app</value>
+    <value>Einstellen der Anwendung</value>
   </data>
   <data name="SwitchAppSettingButton.Content" xml:space="preserve">
-    <value>Settings</value>
+    <value>Einstellungen</value>
   </data>
   <data name="SwitchAppSettingButtonDescription.Text" xml:space="preserve">
-    <value>Open the app settings page.</value>
+    <value>Öffnen Sie die Anwendung Einstellungs Seite.</value>
   </data>
   <data name="SwitchAppSettingButtonLabel.Text" xml:space="preserve">
-    <value>Settings</value>
+    <value>Einstellungen</value>
   </data>
   <data name="SwitchCollectionButton.Content" xml:space="preserve">
-    <value>Collection</value>
+    <value>Sammlung</value>
   </data>
   <data name="SwitchCollectionButtonDescription.Text" xml:space="preserve">
-    <value>Return to the Collection page from another page.</value>
+    <value>Zurück zur Sammlung Seite von einer anderen Seite.</value>
   </data>
   <data name="SwitchCollectionButtonLabel.Text" xml:space="preserve">
-    <value>Collection</value>
+    <value>Sammlung</value>
   </data>
   <data name="SwitchFavoritesButton.Content" xml:space="preserve">
     <value>Favorites</value>
   </data>
   <data name="SwitchFavoritesButtonDescription.Text" xml:space="preserve">
-    <value>Navigate to Favorites page.</value>
+    <value>Navigieren Sie zur Favoriten Seite.</value>
   </data>
   <data name="SwitchFavoritesButtonLabel.Text" xml:space="preserve">
-    <value>Favorites</value>
+    <value>Favoriten</value>
   </data>
   <data name="SwitchUserGuideButton.Content" xml:space="preserve">
-    <value>User Guide</value>
+    <value>Benutzerhandbuch</value>
   </data>
   <data name="SwitchUserGuideButtonDescription.Text" xml:space="preserve">
-    <value>Open the user guide page ( this page ).</value>
+    <value>Öffnen Sie die Benutzerhandbuch Seite ( dieser Seite ).</value>
   </data>
   <data name="SwitchUserGuideButtonLabel.Text" xml:space="preserve">
-    <value>User Guide</value>
+    <value>Benutzerhandbuch</value>
   </data>
   <data name="UserGuidePage.Tag" xml:space="preserve">
-    <value>User Guide</value>
+    <value>Benutzerhandbuch</value>
   </data>
 </root>

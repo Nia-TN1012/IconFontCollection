@@ -54,6 +54,11 @@ namespace IconFontCollection {
 			Suspending += OnSuspending;
 
 			Model = new IconFontCollectionModel();
+
+#if DEBUG
+			// Change language for Debugging of additional languages.
+			System.Globalization.CultureInfo.CurrentUICulture = new System.Globalization.CultureInfo( "de" );
+#endif
 		}
 
 		/// <summary>
