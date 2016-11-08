@@ -322,7 +322,7 @@
     <value>使い方ガイド</value>
   </data>
   <data name="SwitchUserGuideButtonDescription.Text" xml:space="preserve">
-    <value>使い方ガイドのページを開きます。</value>
+    <value>使い方ガイドのページ（このページです）を開きます。</value>
   </data>
   <data name="SwitchUserGuideButtonLabel.Text" xml:space="preserve">
     <value>使い方ガイド</value>
