@@ -118,207 +118,207 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutAppLabel.Text" xml:space="preserve">
-    <value>アプリについて</value>
+    <value>Über Anwendung</value>
   </data>
   <data name="AboutPivot.Header" xml:space="preserve">
-    <value>アプリについて</value>
+    <value>Über</value>
   </data>
   <data name="AppDescription.Text" xml:space="preserve">
-    <value>アイコンフォント これくしょんは、UWPアプリで利用可能なアイコンフォント（Segoe MDL2 Assets）の一覧を表示します。</value>
+    <value>SymbolSchrift Sammlung und zeigt dann eine Liste der UWP Anwendung verfügbar in der Icon-Schrift (Segoe MDL2 Assets).</value>
   </data>
   <data name="AppLicence.Text" xml:space="preserve">
-    <value>アイコンフォント これくしょんは、オープンソース（ BSD Licence ( 2-clause ) ）の下で公開されています。</value>
+    <value>SymbolSchrift Sammlung wird unter einer Open-Source veröffentlicht (BSD-Lizenz (2-Klausel)).</value>
   </data>
   <data name="AppName" xml:space="preserve">
-    <value>アイコンフォント これくしょん</value>
+    <value>SymbolSchrift Sammlung</value>
   </data>
   <data name="AppSettingViewPage.Tag" xml:space="preserve">
-    <value>アプリの設定</value>
+    <value>Einstellungen</value>
   </data>
   <data name="AppTitle.Text" xml:space="preserve">
-    <value>アイコンフォント これくしょん</value>
+    <value>SymbolSchrift Sammlung</value>
   </data>
   <data name="ButtonDescriptionLabel.Text" xml:space="preserve">
-    <value>ボタン</value>
+    <value>Knopf</value>
   </data>
   <data name="CharacterCodeLabel.Text" xml:space="preserve">
-    <value>文字コード</value>
+    <value>Zeichencode</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButton.Content" xml:space="preserve">
-    <value>登録済みのお気に入りをすべて解除</value>
+    <value>Löschen Sie alle registrierten Favoriten</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButtonDescription.Text" xml:space="preserve">
-    <value>登録済みのお気に入りのアイコンフォントをすべて解除します。</value>
+    <value>Löscht alle registrierten Favoriten SymbolSchriften.</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButtonLabel.Text" xml:space="preserve">
-    <value>登録済みのお気に入りをすべて解除</value>
+    <value>Löschen Sie alle registrierten Favoriten</value>
   </data>
   <data name="ClearAllRegisteredFavoriteNote.Text" xml:space="preserve">
-    <value>変更内容を保存するには、アプリを閉じます。</value>
+    <value>Schließen Sie die Anwendung, um die Änderungen zu speichern.</value>
   </data>
   <data name="CollectionPivotItem.Header" xml:space="preserve">
-    <value>コレクションを見る</value>
+    <value>Ansichten Sammlung</value>
   </data>
   <data name="ConfrimDialogCleasrFavorites" xml:space="preserve">
-    <value>登録済みのお気に入りをすべて解除してよろしいですか？</value>
+    <value>Möchten Sie die registrierten Favoriten wirklich löschen?</value>
   </data>
   <data name="ConfrimDialogNo" xml:space="preserve">
-    <value>いいえ</value>
+    <value>Nein</value>
   </data>
   <data name="ConfrimDialogRestoreFavorites" xml:space="preserve">
-    <value>ローカルに保存されている登録済みのお気に入りを復元しますか？</value>
+    <value>Sind Sie sicher, dass Sie die Favoriten von der lokalen wiederherstellen möchten?</value>
   </data>
   <data name="ConfrimDialogTitle" xml:space="preserve">
-    <value>確認</value>
+    <value>Bestätigen</value>
   </data>
   <data name="ConfrimDialogYes" xml:space="preserve">
-    <value>はい</value>
+    <value>Ja</value>
   </data>
   <data name="CopyClipboardButton.ToolTipService.ToolTip" xml:space="preserve">
-    <value>クリップボードにコピー</value>
+    <value>In die Zwischenablage kopieren</value>
   </data>
   <data name="CopyClipboardButtonDescription.Text" xml:space="preserve">
-    <value>テキストボックス内の文字列をクリップボードにコピーします。</value>
+    <value>Kopieren Sie die Zeichenfolge in das Textfeld in die Zwischenablage.</value>
   </data>
   <data name="CopyClipboardButtonLabel.Text" xml:space="preserve">
-    <value>クリップボードにコピー</value>
+    <value>In die Zwischenablage kopieren</value>
   </data>
   <data name="FavoriteIconLabel.Text" xml:space="preserve">
-    <value>お気に入りのアイコン</value>
+    <value>Lieblings-Symbol</value>
   </data>
   <data name="FavoritesPivotItem.Header" xml:space="preserve">
-    <value>お気に入りを見る</value>
+    <value>Ansichten Favoriten</value>
   </data>
   <data name="ForCodeBehindDescription.Text" xml:space="preserve">
-    <value>コードビハインド用の文字コード</value>
+    <value>Character code formatted for Code-behind</value>
   </data>
   <data name="ForCodeBehindLabel.Text" xml:space="preserve">
-    <value>コードビハインド用</value>
+    <value>Für Code-behind</value>
   </data>
   <data name="ForXAMLDescription.Text" xml:space="preserve">
-    <value>XAML用の文字コード</value>
+    <value>Zeichencode für XAML formatiert</value>
   </data>
   <data name="ForXAMLLabel.Text" xml:space="preserve">
-    <value>XAML用</value>
+    <value>Für XAML</value>
   </data>
   <data name="GuideCollection.Text" xml:space="preserve">
-    <value>アプリを起動すると、コレクションページが開き、アイコンフォントの一覧が表示されます。</value>
+    <value>Wenn die Anwendung gestartet wird, navigieren Sie zur Sammlung Seite, die die Liste der SymbolSchriften anzeigt.</value>
   </data>
   <data name="GuideCollectionPanel.Text" xml:space="preserve">
-    <value>一覧の下にあるパネルには、選択したアイコンフォントのアイコンと文字コードが表示されます。</value>
+    <value>Das Bedienfeld unterhalb der Liste zeigt das Symbol und den Zeichencode des ausgewählten SymbolSchriften an.</value>
   </data>
   <data name="GuideFavorites.Text" xml:space="preserve">
-    <value>お気に入りページでは、お気に入りに登録したアイコンフォントの一覧が表示されます。</value>
+    <value>Die Favoriten-Seite zeigt die Liste der in den Favoriten registrierten SymbolSchriften an.</value>
   </data>
   <data name="GuideFavoritesPanel.Text" xml:space="preserve">
-    <value>一覧の下にあるパネルには、選択したアイコンフォントのアイコンと文字コードが表示されます</value>
+    <value>Das Bedienfeld unterhalb der Liste zeigt das Symbol und den Zeichencode des ausgewählten SymbolSchriften an.</value>
   </data>
   <data name="GuideFavoritesSet.Text" xml:space="preserve">
-    <value>項目の右下にある星マークのボタンを押すと、そのアイコンフォントのお気に入りの登録・解除をします。</value>
+    <value>Wenn Sie die Taste der Sternmarke in der rechten unteren Ecke des Elements drücken und dann Registrierung und Streichung der SymbolSchrift zu Favoriten.</value>
   </data>
   <data name="GuideFavoritesSummary.Text" xml:space="preserve">
-    <value>本アプリには、よく使うアイコンフォントをお気に入りとして登録する機能があります。</value>
+    <value>In dieser Anwendung hat es die Fähigkeit, die häufig verwendete SymbolSchriftart als Favorit zu registrieren.</value>
   </data>
   <data name="GuideMobileUsing.Text" xml:space="preserve">
-    <value>モバイルでご利用の場合</value>
+    <value>Wenn Sie mit einem mobilen Endgerät</value>
   </data>
   <data name="GuideMobileUsing1.Text" xml:space="preserve">
-    <value>本アプリは、UWPアプリ開発用のツールのため、PC用に最適化されています。</value>
+    <value>Diese Anwendung, die das Utility für die Entwicklung von UWP Anwendung ist, wurde für den PC optimiert.</value>
   </data>
   <data name="GuideMobileUsing2.Text" xml:space="preserve">
-    <value>モバイルでも利用可能ですが、ウィンドウの幅もしくは高さが480epx未満の時、上図のパネルが非表示になります。</value>
+    <value>Es ist auch auf mobilen Endgerät verfügbar, aber wenn die Breite oder Höhe des Fensters weniger als 480 epx ist, wird das Bedienfeld in der obigen Abbildung ausgeblendet.</value>
   </data>
   <data name="GuideMobileUsing3.Text" xml:space="preserve">
-    <value>（表示したい場合、「Continuum for phone」を利用し、外部モニターに本アプリのウィンドウを表示してください。）</value>
+    <value>(Wenn Sie es sehen möchten, verwenden Sie bitte "Continuum for phone" auf Ihrem mobilen Endgerät und das Fenster dieser Anwendung auf einem externen Monitor anzeigen.)</value>
   </data>
   <data name="GuideNavigation.Text" xml:space="preserve">
-    <value>左上にあるハンバーガーボタンを押すと、ナビゲーションメニューを開きます。</value>
+    <value>Wenn Sie die Hamburger-Knopf auf der linken Seite drücken, öffnet sich das Navigationsmenü.</value>
   </data>
   <data name="GuideSettings.Text" xml:space="preserve">
-    <value>設定ページでは、アプリの設定をしたり、アプリについての情報を表示したりします。</value>
+    <value>Auf der Einstellungen Seite können Sie die Einstellungen vornehmen oder Informationen zur Anwendung anzeigen.</value>
   </data>
   <data name="IconFontCollectionViewPage.Tag" xml:space="preserve">
-    <value>アイコンフォント これくしょん</value>
+    <value>SymbolSchrift Sammlung</value>
   </data>
   <data name="IconFontFavoritesViewPage.Tag" xml:space="preserve">
-    <value>お気に入り</value>
+    <value>Favoriten</value>
   </data>
   <data name="IconLabel.Text" xml:space="preserve">
-    <value>アイコン</value>
+    <value>Symbol</value>
   </data>
   <data name="IsNotRegiteredFavorites.Text" xml:space="preserve">
-    <value>お気に入りに登録されていません。</value>
+    <value>Ist nicht zu Favoriten registriert.</value>
   </data>
   <data name="IsRegiteredFavorites.Text" xml:space="preserve">
-    <value>お気に入りに登録されています。</value>
+    <value>Ist auf zu Favoriten registriert.</value>
   </data>
   <data name="NavigationPivotItem.Header" xml:space="preserve">
-    <value>ナビゲーションメニュー</value>
+    <value>Navigationsmenü</value>
   </data>
   <data name="NoteLabel.Text" xml:space="preserve">
-    <value>Note</value>
+    <value>Hinweis</value>
   </data>
   <data name="OriginalValueDescription.Text" xml:space="preserve">
-    <value>元の文字コード（16進数）</value>
+    <value>Ursprünglicher Zeichencode (Hexadezimal)</value>
   </data>
   <data name="OriginalValueLabel.Text" xml:space="preserve">
-    <value>元の値</value>
+    <value>Originalwert</value>
   </data>
   <data name="RestoreLocalFavoritesButton.Content" xml:space="preserve">
-    <value>お気に入りを復元</value>
+    <value>Wiederherstellen Sie die Favoriten von lokalen</value>
   </data>
   <data name="RestoreLocalFavoritesButtonDescription.Text" xml:space="preserve">
-    <value>ローカルに保存されている登録済みのお気に入りを復元します。</value>
+    <value>Wiederherstellen Sie die Favoriten von lokalen, die in Start Anwendungen geladen wird.</value>
   </data>
   <data name="RestoreLocalFavoritesButtonLabel.Text" xml:space="preserve">
-    <value>お気に入りを復元</value>
+    <value>Wiederherstellen Sie die Favoriten von lokalen</value>
   </data>
   <data name="SetFavoriteItem.ToolTipService.ToolTip" xml:space="preserve">
-    <value>お気に入り</value>
+    <value>Favorit</value>
   </data>
   <data name="SettingPivot.Header" xml:space="preserve">
-    <value>設定</value>
+    <value>Einstellungen</value>
   </data>
   <data name="SettingsPivotItem.Header" xml:space="preserve">
-    <value>アプリを設定する</value>
+    <value>Einstellen der Anwendung</value>
   </data>
   <data name="SwitchAppSettingButton.Content" xml:space="preserve">
-    <value>設定</value>
+    <value>Einstellungen</value>
   </data>
   <data name="SwitchAppSettingButtonDescription.Text" xml:space="preserve">
-    <value>設定ページを開きます。</value>
+    <value>Öffnen Sie die Anwendung Einstellungs Seite.</value>
   </data>
   <data name="SwitchAppSettingButtonLabel.Text" xml:space="preserve">
-    <value>設定</value>
+    <value>Einstellungen</value>
   </data>
   <data name="SwitchCollectionButton.Content" xml:space="preserve">
-    <value>コレクション</value>
+    <value>Sammlung</value>
   </data>
   <data name="SwitchCollectionButtonDescription.Text" xml:space="preserve">
-    <value>別のページからコレクションページに戻ります。</value>
+    <value>Zurück zur Sammlung Seite von einer anderen Seite.</value>
   </data>
   <data name="SwitchCollectionButtonLabel.Text" xml:space="preserve">
-    <value>コレクション</value>
+    <value>Sammlung</value>
   </data>
   <data name="SwitchFavoritesButton.Content" xml:space="preserve">
-    <value>お気に入り</value>
+    <value>Favorites</value>
   </data>
   <data name="SwitchFavoritesButtonDescription.Text" xml:space="preserve">
-    <value>お気に入りページに移動します。</value>
+    <value>Navigieren Sie zur Favoriten Seite.</value>
   </data>
   <data name="SwitchFavoritesButtonLabel.Text" xml:space="preserve">
-    <value>お気に入り</value>
+    <value>Favoriten</value>
   </data>
   <data name="SwitchUserGuideButton.Content" xml:space="preserve">
-    <value>使い方ガイド</value>
+    <value>Benutzerhandbuch</value>
   </data>
   <data name="SwitchUserGuideButtonDescription.Text" xml:space="preserve">
-    <value>使い方ガイドのページを開きます。</value>
+    <value>Öffnen Sie die Benutzerhandbuch Seite ( dieser Seite ).</value>
   </data>
   <data name="SwitchUserGuideButtonLabel.Text" xml:space="preserve">
-    <value>使い方ガイド</value>
+    <value>Benutzerhandbuch</value>
   </data>
   <data name="UserGuidePage.Tag" xml:space="preserve">
-    <value>使い方ガイド</value>
+    <value>Benutzerhandbuch</value>
   </data>
 </root>

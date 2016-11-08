@@ -57,7 +57,7 @@ namespace IconFontCollection {
 
 #if DEBUG
 			// Change language for Debugging of additional languages.
-			System.Globalization.CultureInfo.CurrentUICulture = new System.Globalization.CultureInfo( "de" );
+			System.Globalization.CultureInfo.CurrentUICulture = new System.Globalization.CultureInfo( "it" );
 #endif
 		}
 

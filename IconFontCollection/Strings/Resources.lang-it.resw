@@ -118,207 +118,207 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutAppLabel.Text" xml:space="preserve">
-    <value>アプリについて</value>
+    <value>A proposito di App</value>
   </data>
   <data name="AboutPivot.Header" xml:space="preserve">
-    <value>アプリについて</value>
+    <value>A proposito di App</value>
   </data>
   <data name="AppDescription.Text" xml:space="preserve">
-    <value>アイコンフォント これくしょんは、UWPアプリで利用可能なアイコンフォント（Segoe MDL2 Assets）の一覧を表示します。</value>
+    <value>IconaFont Collezione è App che consente di visualizzare un elenco dei font icona (Segoe MDL2 Assets) per lo sviluppo di UWP App.</value>
   </data>
   <data name="AppLicence.Text" xml:space="preserve">
-    <value>アイコンフォント これくしょんは、オープンソース（ BSD Licence ( 2-clause ) ）の下で公開されています。</value>
+    <value>IconaFont Collezione è rilasciato sotto un open source (BSD License (2-punto)).</value>
   </data>
   <data name="AppName" xml:space="preserve">
-    <value>アイコンフォント これくしょん</value>
+    <value>IconaFont Collezione</value>
   </data>
   <data name="AppSettingViewPage.Tag" xml:space="preserve">
-    <value>アプリの設定</value>
+    <value>Impostazioni</value>
   </data>
   <data name="AppTitle.Text" xml:space="preserve">
-    <value>アイコンフォント これくしょん</value>
+    <value>IconaFont Collezione</value>
   </data>
   <data name="ButtonDescriptionLabel.Text" xml:space="preserve">
-    <value>ボタン</value>
+    <value>Pulsanti</value>
   </data>
   <data name="CharacterCodeLabel.Text" xml:space="preserve">
-    <value>文字コード</value>
+    <value>Codice Carattere</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButton.Content" xml:space="preserve">
-    <value>登録済みのお気に入りをすべて解除</value>
+    <value>Cancellare tutto preferito registrati</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButtonDescription.Text" xml:space="preserve">
-    <value>登録済みのお気に入りのアイコンフォントをすべて解除します。</value>
+    <value>Cancella tutte le IconaFonts preferiti registrati.</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButtonLabel.Text" xml:space="preserve">
-    <value>登録済みのお気に入りをすべて解除</value>
+    <value>Cancellare tutto preferito registrati</value>
   </data>
   <data name="ClearAllRegisteredFavoriteNote.Text" xml:space="preserve">
-    <value>変更内容を保存するには、アプリを閉じます。</value>
+    <value>Per salvare le modifiche, si prega di chiudere l'app.</value>
   </data>
   <data name="CollectionPivotItem.Header" xml:space="preserve">
-    <value>コレクションを見る</value>
+    <value>Vista Collection</value>
   </data>
   <data name="ConfrimDialogCleasrFavorites" xml:space="preserve">
-    <value>登録済みのお気に入りをすべて解除してよろしいですか？</value>
+    <value>Sei sicuro di voler annullare tutti i favoriti registrati?</value>
   </data>
   <data name="ConfrimDialogNo" xml:space="preserve">
-    <value>いいえ</value>
+    <value>No</value>
   </data>
   <data name="ConfrimDialogRestoreFavorites" xml:space="preserve">
-    <value>ローカルに保存されている登録済みのお気に入りを復元しますか？</value>
+    <value>Sei sicuro di voler ripristinare i favoriti da quello locale?</value>
   </data>
   <data name="ConfrimDialogTitle" xml:space="preserve">
-    <value>確認</value>
+    <value>Confermare</value>
   </data>
   <data name="ConfrimDialogYes" xml:space="preserve">
-    <value>はい</value>
+    <value>Sì</value>
   </data>
   <data name="CopyClipboardButton.ToolTipService.ToolTip" xml:space="preserve">
-    <value>クリップボードにコピー</value>
+    <value>Copia negli appunti</value>
   </data>
   <data name="CopyClipboardButtonDescription.Text" xml:space="preserve">
-    <value>テキストボックス内の文字列をクリップボードにコピーします。</value>
+    <value>Copiare la stringa nella casella di testo negli appunti.</value>
   </data>
   <data name="CopyClipboardButtonLabel.Text" xml:space="preserve">
-    <value>クリップボードにコピー</value>
+    <value>Copia negli appunti</value>
   </data>
   <data name="FavoriteIconLabel.Text" xml:space="preserve">
-    <value>お気に入りのアイコン</value>
+    <value>Icona preferita</value>
   </data>
   <data name="FavoritesPivotItem.Header" xml:space="preserve">
-    <value>お気に入りを見る</value>
+    <value>Visto Preferiti</value>
   </data>
   <data name="ForCodeBehindDescription.Text" xml:space="preserve">
-    <value>コードビハインド用の文字コード</value>
+    <value>Codice Carattere formattato per Codice-dietro</value>
   </data>
   <data name="ForCodeBehindLabel.Text" xml:space="preserve">
-    <value>コードビハインド用</value>
+    <value>Per Codice-dietro</value>
   </data>
   <data name="ForXAMLDescription.Text" xml:space="preserve">
-    <value>XAML用の文字コード</value>
+    <value>Codice Carattere formattato per XAML</value>
   </data>
   <data name="ForXAMLLabel.Text" xml:space="preserve">
-    <value>XAML用</value>
+    <value>Per XAML</value>
   </data>
   <data name="GuideCollection.Text" xml:space="preserve">
-    <value>アプリを起動すると、コレクションページが開き、アイコンフォントの一覧が表示されます。</value>
+    <value>Quando si avvia l'app, accedere alla pagina di colleczione che consente di visualizzare l'elenco delle IconaFont.</value>
   </data>
   <data name="GuideCollectionPanel.Text" xml:space="preserve">
-    <value>一覧の下にあるパネルには、選択したアイコンフォントのアイコンと文字コードが表示されます。</value>
+    <value>Il pannello sotto la lista viene visualizzata l'icona e il codice di carattere del IconFont selezionato.</value>
   </data>
   <data name="GuideFavorites.Text" xml:space="preserve">
-    <value>お気に入りページでは、お気に入りに登録したアイコンフォントの一覧が表示されます。</value>
+    <value>Pagina Favoriti visualizza l'elenco dei icone font registrati i favoriti.</value>
   </data>
   <data name="GuideFavoritesPanel.Text" xml:space="preserve">
-    <value>一覧の下にあるパネルには、選択したアイコンフォントのアイコンと文字コードが表示されます</value>
+    <value>Il pannello sotto la lista viene visualizzata l'icona e il codice di carattere del IconFont selezionato.</value>
   </data>
   <data name="GuideFavoritesSet.Text" xml:space="preserve">
-    <value>項目の右下にある星マークのボタンを押すと、そのアイコンフォントのお気に入りの登録・解除をします。</value>
+    <value>Quando si preme il pulsante del marchio stella nell'angolo in basso a destra della voce, e quindi la registrazione e la cancellazione del IconFont ai favoriti.</value>
   </data>
   <data name="GuideFavoritesSummary.Text" xml:space="preserve">
-    <value>本アプリには、よく使うアイコンフォントをお気に入りとして登録する機能があります。</value>
+    <value>In questa app, ha la capacità di registrare l'IconaFont utilizzati di frequente come preferito.</value>
   </data>
   <data name="GuideMobileUsing.Text" xml:space="preserve">
-    <value>モバイルでご利用の場合</value>
+    <value>Quando si utilizzano dispositivi mobili</value>
   </data>
   <data name="GuideMobileUsing1.Text" xml:space="preserve">
-    <value>本アプリは、UWPアプリ開発用のツールのため、PC用に最適化されています。</value>
+    <value>Questa app, che è l'utilità per lo sviluppo di UWP app, è stato ottimizzato per PC.</value>
   </data>
   <data name="GuideMobileUsing2.Text" xml:space="preserve">
-    <value>モバイルでも利用可能ですが、ウィンドウの幅もしくは高さが480epx未満の時、上図のパネルが非表示になります。</value>
+    <value>E 'disponibile anche su dispositivi mobili, ma quando la larghezza o l'altezza della finestra è inferiore a 480 epx, pannello nella figura qui sopra è nascosto.</value>
   </data>
   <data name="GuideMobileUsing3.Text" xml:space="preserve">
-    <value>（表示したい場合、「Continuum for phone」を利用し、外部モニターに本アプリのウィンドウを表示してください。）</value>
+    <value>(Se si vuole vedere, si prega di utilizzare 'Continuum for phone' sul dispositivo mobile e visualizzare la finestra di questa app a un monitor esterno.)</value>
   </data>
   <data name="GuideNavigation.Text" xml:space="preserve">
-    <value>左上にあるハンバーガーボタンを押すと、ナビゲーションメニューを開きます。</value>
+    <value>Quando si preme il pulsante di hamburger a sinistra-alto, si apre il menu di navigazione.</value>
   </data>
   <data name="GuideSettings.Text" xml:space="preserve">
-    <value>設定ページでは、アプリの設定をしたり、アプリについての情報を表示したりします。</value>
+    <value>Nella pagina Impostazioni, o reso le impostazioni, o per visualizzare le informazioni sulla app.</value>
   </data>
   <data name="IconFontCollectionViewPage.Tag" xml:space="preserve">
-    <value>アイコンフォント これくしょん</value>
+    <value>IconaFont Colleczione</value>
   </data>
   <data name="IconFontFavoritesViewPage.Tag" xml:space="preserve">
-    <value>お気に入り</value>
+    <value>Favoriti</value>
   </data>
   <data name="IconLabel.Text" xml:space="preserve">
-    <value>アイコン</value>
+    <value>Icona</value>
   </data>
   <data name="IsNotRegiteredFavorites.Text" xml:space="preserve">
-    <value>お気に入りに登録されていません。</value>
+    <value>Non è stato registrato ai favoriti.</value>
   </data>
   <data name="IsRegiteredFavorites.Text" xml:space="preserve">
-    <value>お気に入りに登録されています。</value>
+    <value>È stato registrato ai favoriti.</value>
   </data>
   <data name="NavigationPivotItem.Header" xml:space="preserve">
-    <value>ナビゲーションメニュー</value>
+    <value>Menu di navigazione</value>
   </data>
   <data name="NoteLabel.Text" xml:space="preserve">
-    <value>Note</value>
+    <value>Nota</value>
   </data>
   <data name="OriginalValueDescription.Text" xml:space="preserve">
-    <value>元の文字コード（16進数）</value>
+    <value>Codice carattere originale (esadecimale)</value>
   </data>
   <data name="OriginalValueLabel.Text" xml:space="preserve">
-    <value>元の値</value>
+    <value>Valore originale</value>
   </data>
   <data name="RestoreLocalFavoritesButton.Content" xml:space="preserve">
-    <value>お気に入りを復元</value>
+    <value>Ripristinare i favoriti da quello locale</value>
   </data>
   <data name="RestoreLocalFavoritesButtonDescription.Text" xml:space="preserve">
-    <value>ローカルに保存されている登録済みのお気に入りを復元します。</value>
+    <value>Ripristinare i favoriti caricato locale ad avviare app.</value>
   </data>
   <data name="RestoreLocalFavoritesButtonLabel.Text" xml:space="preserve">
-    <value>お気に入りを復元</value>
+    <value>Ripristinare i favoriti da quello locale</value>
   </data>
   <data name="SetFavoriteItem.ToolTipService.ToolTip" xml:space="preserve">
-    <value>お気に入り</value>
+    <value>Preferito</value>
   </data>
   <data name="SettingPivot.Header" xml:space="preserve">
-    <value>設定</value>
+    <value>Impostazioni</value>
   </data>
   <data name="SettingsPivotItem.Header" xml:space="preserve">
-    <value>アプリを設定する</value>
+    <value>Impostazione app</value>
   </data>
   <data name="SwitchAppSettingButton.Content" xml:space="preserve">
-    <value>設定</value>
+    <value>Impostazioni</value>
   </data>
   <data name="SwitchAppSettingButtonDescription.Text" xml:space="preserve">
-    <value>設定ページを開きます。</value>
+    <value>Aprire la pagina delle impostazioni di app.</value>
   </data>
   <data name="SwitchAppSettingButtonLabel.Text" xml:space="preserve">
-    <value>設定</value>
+    <value>Impostazioni</value>
   </data>
   <data name="SwitchCollectionButton.Content" xml:space="preserve">
-    <value>コレクション</value>
+    <value>Collezione</value>
   </data>
   <data name="SwitchCollectionButtonDescription.Text" xml:space="preserve">
-    <value>別のページからコレクションページに戻ります。</value>
+    <value>Ritorna alla pagina colleczione da un'altra pagina.</value>
   </data>
   <data name="SwitchCollectionButtonLabel.Text" xml:space="preserve">
-    <value>コレクション</value>
+    <value>Collezione</value>
   </data>
   <data name="SwitchFavoritesButton.Content" xml:space="preserve">
-    <value>お気に入り</value>
+    <value>Favoriti</value>
   </data>
   <data name="SwitchFavoritesButtonDescription.Text" xml:space="preserve">
-    <value>お気に入りページに移動します。</value>
+    <value>Accedere alla pagina di Favoriti.</value>
   </data>
   <data name="SwitchFavoritesButtonLabel.Text" xml:space="preserve">
-    <value>お気に入り</value>
+    <value>Favoriti</value>
   </data>
   <data name="SwitchUserGuideButton.Content" xml:space="preserve">
-    <value>使い方ガイド</value>
+    <value>Manuale d'uso</value>
   </data>
   <data name="SwitchUserGuideButtonDescription.Text" xml:space="preserve">
-    <value>使い方ガイドのページを開きます。</value>
+    <value>Aprire la pagina manuale d'uso (questa pagina).</value>
   </data>
   <data name="SwitchUserGuideButtonLabel.Text" xml:space="preserve">
-    <value>使い方ガイド</value>
+    <value>Manuale d'uso</value>
   </data>
   <data name="UserGuidePage.Tag" xml:space="preserve">
-    <value>使い方ガイド</value>
+    <value>Manuale d'uso</value>
   </data>
 </root>
