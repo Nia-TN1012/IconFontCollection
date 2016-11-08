@@ -76,14 +76,14 @@
 								<TextBlock Padding="5,5,5,3" 
 										   FontSize="{ThemeResource ContentControlFontSize}"
 										   TextWrapping="Wrap">
-									Version : 
+									<Run x:Uid="AboutVersion"/> : 
 									<Run FontWeight="Bold"
 										 Text="{Binding CurrentVersion}"/>
 								</TextBlock>
 								<TextBlock Padding="5,5,5,3" 
 										   FontSize="{ThemeResource ContentControlFontSize}"
 										   TextWrapping="Wrap">
-									Developer : <Bold>Nia Tomonaka</Bold> ( 
+									<Run x:Uid="AboutDeveloper"/> : <Bold>Nia Tomonaka</Bold> ( 
 									<Hyperlink NavigateUri="https://twitter.com/nia_tn1012">
 										<Run Text="@nia_tn1012"/>
 									</Hyperlink>
@@ -96,7 +96,7 @@
 										   FontSize="{ThemeResource ContentControlFontSize}"
 										   TextWrapping="Wrap">
 									&#x00A9; 2016 Chronoir.net<LineBreak/>
-									WebSite :  
+									<Run x:Uid="AboutWebSite"/> :  
 									<Hyperlink NavigateUri="https://chronoir.net/">
 										<Run Text="Chronoir.net"/>
 									</Hyperlink><LineBreak/><LineBreak/>

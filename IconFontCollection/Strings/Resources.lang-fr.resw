@@ -120,8 +120,17 @@
   <data name="AboutAppLabel.Text" xml:space="preserve">
     <value>A propos de App</value>
   </data>
+  <data name="AboutDeveloper.Text" xml:space="preserve">
+    <value>Développeur</value>
+  </data>
   <data name="AboutPivot.Header" xml:space="preserve">
     <value>A propos de App</value>
+  </data>
+  <data name="AboutVersion.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="AboutWebSite.Text" xml:space="preserve">
+    <value>Site Internet</value>
   </data>
   <data name="AppDescription.Text" xml:space="preserve">
     <value>IcônePolice Collection est App qui affiche une liste d'icônes polices (Segoe MDL2 Assets) pour le développement de l'UWP App.</value>

@@ -120,8 +120,17 @@
   <data name="AboutAppLabel.Text" xml:space="preserve">
     <value>About App</value>
   </data>
+  <data name="AboutDeveloper.Text" xml:space="preserve">
+    <value>Developer</value>
+  </data>
   <data name="AboutPivot.Header" xml:space="preserve">
     <value>About</value>
+  </data>
+  <data name="AboutVersion.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="AboutWebSite.Text" xml:space="preserve">
+    <value>Website</value>
   </data>
   <data name="AppDescription.Text" xml:space="preserve">
     <value>IconFont Collection is App that displays a list of icon fonts (Segoe MDL2 Assets) for development of UWP App.</value>
