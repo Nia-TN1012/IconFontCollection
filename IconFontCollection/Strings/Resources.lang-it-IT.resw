@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutAppLabel.Text" xml:space="preserve">
-    <value>A proposito di App</value>
+    <value>A proposito di Applicazione</value>
   </data>
   <data name="AboutDeveloper.Text" xml:space="preserve">
     <value>Sviluppatore</value>
   </data>
   <data name="AboutPivot.Header" xml:space="preserve">
-    <value>A proposito di App</value>
+    <value>A proposito di Applicazione</value>
   </data>
   <data name="AboutVersion.Text" xml:space="preserve">
     <value>Versione</value>
@@ -133,7 +133,7 @@
     <value>Sito web</value>
   </data>
   <data name="AppDescription.Text" xml:space="preserve">
-    <value>IconaFont Collezione è App che consente di visualizzare un elenco dei font icona (Segoe MDL2 Assets) per lo sviluppo di UWP App.</value>
+    <value>IconaFont Collezione è Applicazione che consente di visualizzare un elenco dei font icona (Segoe MDL2 Assets) per lo sviluppo di UWP Applicazione.</value>
   </data>
   <data name="AppLicence.Text" xml:space="preserve">
     <value>IconaFont Collezione è rilasciato sotto un open source (BSD License (2-punto)).</value>
@@ -163,7 +163,7 @@
     <value>Cancellare tutto preferito registrati</value>
   </data>
   <data name="ClearAllRegisteredFavoriteNote.Text" xml:space="preserve">
-    <value>Per salvare le modifiche, si prega di chiudere l'app.</value>
+    <value>Per salvare le modifiche, si prega di chiudere l'applicazione.</value>
   </data>
   <data name="CollectionPivotItem.Header" xml:space="preserve">
     <value>Vista Collection</value>
@@ -211,7 +211,7 @@
     <value>Per XAML</value>
   </data>
   <data name="GuideCollection.Text" xml:space="preserve">
-    <value>Quando si avvia l'app, accedere alla pagina di colleczione che consente di visualizzare l'elenco delle IconaFont.</value>
+    <value>Quando si avvia l'applicazione, accedere alla pagina di colleczione che consente di visualizzare l'elenco delle IconaFont.</value>
   </data>
   <data name="GuideCollectionPanel.Text" xml:space="preserve">
     <value>Il pannello sotto la lista viene visualizzata l'icona e il codice di carattere del IconFont selezionato.</value>
@@ -232,13 +232,13 @@
     <value>Quando si utilizzano dispositivi mobili</value>
   </data>
   <data name="GuideMobileUsing1.Text" xml:space="preserve">
-    <value>Questa app, che è l'utilità per lo sviluppo di UWP app, è stato ottimizzato per PC.</value>
+    <value>Questa applicazione è uno strumento per lo sviluppo di applicazioni UWP, quindi è ottimizzato per PC.</value>
   </data>
   <data name="GuideMobileUsing2.Text" xml:space="preserve">
-    <value>E 'disponibile anche su dispositivi mobili, ma quando la larghezza o l'altezza della finestra è inferiore a 480 epx, pannello nella figura qui sopra è nascosto.</value>
+    <value>Anche se può essere utilizzato su dispositivi mobili, il pannello nella figura sopra sarà nascosto quando la larghezza o l'altezza della finestra è inferiore a 480 epx.</value>
   </data>
   <data name="GuideMobileUsing3.Text" xml:space="preserve">
-    <value>(Se si vuole vedere, si prega di utilizzare 'Continuum for phone' sul dispositivo mobile e visualizzare la finestra di questa app a un monitor esterno.)</value>
+    <value>(Se si desidera visualizzare, si prega di usare "Continuum for phone" sul dispositivo mobile e visualizzare la finestra di questa applicazione sul monitor esterno.)</value>
   </data>
   <data name="GuideNavigation.Text" xml:space="preserve">
     <value>Quando si preme il pulsante di hamburger a sinistra-alto, si apre il menu di navigazione.</value>
@@ -277,7 +277,7 @@
     <value>Ripristinare i favoriti da quello locale</value>
   </data>
   <data name="RestoreLocalFavoritesButtonDescription.Text" xml:space="preserve">
-    <value>Ripristinare i favoriti caricato locale ad avviare app.</value>
+    <value>Ripristinare i favoriti caricato locale ad avviare applicazione.</value>
   </data>
   <data name="RestoreLocalFavoritesButtonLabel.Text" xml:space="preserve">
     <value>Ripristinare i favoriti da quello locale</value>
@@ -295,7 +295,7 @@
     <value>Impostazioni</value>
   </data>
   <data name="SwitchAppSettingButtonDescription.Text" xml:space="preserve">
-    <value>Aprire la pagina delle impostazioni di app.</value>
+    <value>Aprire la pagina delle impostazioni di applicazione.</value>
   </data>
   <data name="SwitchAppSettingButtonLabel.Text" xml:space="preserve">
     <value>Impostazioni</value>

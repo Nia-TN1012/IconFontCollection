@@ -232,13 +232,13 @@
     <value>When using mobile device</value>
   </data>
   <data name="GuideMobileUsing1.Text" xml:space="preserve">
-    <value>This app, that is the utility for development of UWP app, has been optimized for PC.</value>
+    <value>This app is a tool for developing UWP applications, so it is optimized for PC.</value>
   </data>
   <data name="GuideMobileUsing2.Text" xml:space="preserve">
-    <value>It is also available on mobile device, but when the width or height of the window is less than 480epx, panel in the above figure is hidden.</value>
+    <value>Although it can be used on mobile device, the panel in the above figure will be hidden when the width or height of the window is less than 480 epx.</value>
   </data>
   <data name="GuideMobileUsing3.Text" xml:space="preserve">
-    <value>( If you want to see it, please use 'Continuum for phone' on your mobile device and display the window of this app to an external monitor. )</value>
+    <value>( If you want to display it, please use "Continuum for phone" on your mobile device and display the window of this app on the external monitor. )</value>
   </data>
   <data name="GuideNavigation.Text" xml:space="preserve">
     <value>When you press the hamburger button on the left-top, opens the navigation menu.</value>

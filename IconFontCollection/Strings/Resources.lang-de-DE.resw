@@ -232,13 +232,13 @@
     <value>Wenn Sie mit einem mobilen Endgerät</value>
   </data>
   <data name="GuideMobileUsing1.Text" xml:space="preserve">
-    <value>Diese Anwendung, die das Utility für die Entwicklung von UWP Anwendung ist, wurde für den PC optimiert.</value>
+    <value>Diese Anwendung ist ein Werkzeug für die Entwicklung von UWP-Anwendungen, so ist es für den PC optimiert.</value>
   </data>
   <data name="GuideMobileUsing2.Text" xml:space="preserve">
-    <value>Es ist auch auf mobilen Endgerät verfügbar, aber wenn die Breite oder Höhe des Fensters weniger als 480 epx ist, wird das Bedienfeld in der obigen Abbildung ausgeblendet.</value>
+    <value>Obwohl es auf mobilen Geräten verwendet werden kann, wird das Bedienfeld in der obigen Abbildung ausgeblendet, wenn die Breite oder Höhe des Fensters weniger als 480 epx beträgt.</value>
   </data>
   <data name="GuideMobileUsing3.Text" xml:space="preserve">
-    <value>(Wenn Sie es sehen möchten, verwenden Sie bitte "Continuum for phone" auf Ihrem mobilen Endgerät und das Fenster dieser Anwendung auf einem externen Monitor anzeigen.)</value>
+    <value>(Wenn Sie es anzeigen möchten, verwenden Sie bitte "Continuum for phone" auf Ihrem Mobilgerät und zeigen Sie das Fenster dieser Anwendung auf dem externen Monitor an.)</value>
   </data>
   <data name="GuideNavigation.Text" xml:space="preserve">
     <value>Wenn Sie die Hamburger-Knopf auf der linken Seite drücken, öffnet sich das Navigationsmenü.</value>

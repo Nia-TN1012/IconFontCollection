@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutAppLabel.Text" xml:space="preserve">
-    <value>A propos de App</value>
+    <value>A propos de Application</value>
   </data>
   <data name="AboutDeveloper.Text" xml:space="preserve">
     <value>Développeur</value>
   </data>
   <data name="AboutPivot.Header" xml:space="preserve">
-    <value>A propos de App</value>
+    <value>A propos de Application</value>
   </data>
   <data name="AboutVersion.Text" xml:space="preserve">
     <value>Version</value>
@@ -133,7 +133,7 @@
     <value>Site Internet</value>
   </data>
   <data name="AppDescription.Text" xml:space="preserve">
-    <value>IcônePolice Collection est App qui affiche une liste d'icônes polices (Segoe MDL2 Assets) pour le développement de l'UWP App.</value>
+    <value>IcônePolice Collection est Application qui affiche une liste d'icônes polices (Segoe MDL2 Assets) pour le développement de l'UWP Application.</value>
   </data>
   <data name="AppLicence.Text" xml:space="preserve">
     <value>IcônePolice Collection est publié sous une open source (BSD Licence (2-clause)).</value>
@@ -232,13 +232,13 @@
     <value>Lors de l'appareil mobile</value>
   </data>
   <data name="GuideMobileUsing1.Text" xml:space="preserve">
-    <value>Cette application, qui est l'utilité pour le développement de l'application UWP, a été optimisé pour PC.</value>
+    <value>Cette application est un outil pour développer des applications UWP, il est donc optimisé pour PC.</value>
   </data>
   <data name="GuideMobileUsing2.Text" xml:space="preserve">
-    <value>Il est également disponible sur l'appareil mobile, mais quand la largeur ou la hauteur de la fenêtre est inférieure à 480 epx, panneau dans la figure ci-dessus est caché.</value>
+    <value>Bien qu'il puisse être utilisé sur un appareil mobile, le panneau de la figure ci-dessus sera masqué lorsque la largeur ou la hauteur de la fenêtre est inférieure à 480 epx.</value>
   </data>
   <data name="GuideMobileUsing3.Text" xml:space="preserve">
-    <value>(Si vous voulez le voir, s'il vous plaît utiliser "Continuum for phone' sur votre appareil mobile et afficher la fenêtre de cette application à un moniteur externe.)</value>
+    <value>(Si vous voulez l'afficher, veuillez utiliser "Continuum for phone" sur votre appareil mobile et afficher la fenêtre de cette application sur le moniteur externe).</value>
   </data>
   <data name="GuideNavigation.Text" xml:space="preserve">
     <value>Lorsque vous appuyez sur le bouton de hamburger sur la gauche en haut, ouvre le menu de navigation.</value>
