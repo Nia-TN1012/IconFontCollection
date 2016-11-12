@@ -6,8 +6,8 @@ IconFont Collection displays a list of icon fonts for development of UWP Applica
 
 ## Application summary
 
-|Summary|S|
-|--|--|
+|||
+|---|---|
 |Application name|IconFont Collection|
 |Version|1.1.2|
 |Developer|Nia Tomonaka (@nia_tn1012)|
@@ -23,7 +23,7 @@ IconFont Collection displays a list of icon fonts for development of UWP Applica
 |Development environment|Visual Studio Community 2015 Update 3|
 
 The application can be downloaded from the Windows store
-(*If you are using Windows 10 / Windows 10 Mobile, the Store application opens).
+(\*If you are using Windows 10 / Windows 10 Mobile, the Store application opens).
 
 [Download](https://www.microsoft.com/store/apps/9nblggh4321l)
 
@@ -39,18 +39,18 @@ the icon of the selected icon font and the character code are displayed.
 Press the "Copy to clipboard" button on the right side of each text box
 to copy that string to the clipboard.
 
->***When using mobile device**
+>**\*When using mobile device**
 >
 >This application is a tool for developing UWP applications,
 so it is optimized for PC.
 >
 >Although it can be used on mobile device,
 the panel in the above figure will be hidden when the width or height of the window is less than 480 epx.
-(*If you want to display it, please use "Continuum for phone" on your mobile device
+(\*If you want to display it, please use "Continuum for phone" on your mobile device
 and display the window of this application on the external monitor.)
 
 |||
-|--|--|
+|---|---|
 |Original Value|Displays the character code in hexadecimal (with prefix).|
 |For XAML|Displays the character string converted into the format "&#xXXXX;" that can be used as it is in XAML.|
 |For Code-behind|Displays the character string converted from the character code to the format "\uXXXX" that can be used as it is in the code-behind.|
@@ -87,13 +87,13 @@ A list of IconFonts registered as favorites can be viewed on the Favorites page.
 When you press the hamburger button on the left-top, opens the navigation menu.
 
 |||
-|--|--|
-|Collection|Return to the Collection page from another page.(*)|
+|---|---|
+|Collection|Return to the Collection page from another page.(\*)|
 |Favorites|Navigate to Favorites page.|
 |User Guide|Open the user guide page ( this page ).|
 |Settings|Open the application settings page.|
 
-(*) When pressing at the IconFont list (Collection) page,
+(\*) When pressing at the IconFont list (Collection) page,
 scrolls to the first item.
 
 ## User Guide
@@ -106,7 +106,7 @@ On the setting page, you set up the application,
 and displays information about the application.
 
 |||
-|--|--|
+|---|---|
 |Clear all registered favorites|Clears all registered favorite IconFonts.|
 
 # About IconFont Collection
