@@ -238,7 +238,7 @@
     <value>它也可在移動設備上、但是當窗口的寬度或高度小於480epx、面板上面的圖中是隱藏的。</value>
   </data>
   <data name="GuideMobileUsing3.Text" xml:space="preserve">
-    <value>(如果你想顯示,使用 Continuum for phone'、請顯示此應用程序到外部顯示器的窗口。)</value>
+    <value>(如果你想顯示,使用"Continuum for phone"、請顯示此應用程序到外部顯示器的窗口。)</value>
   </data>
   <data name="GuideNavigation.Text" xml:space="preserve">
     <value>當您按下左上角的漢堡包按鈕、打開導航菜單。</value>

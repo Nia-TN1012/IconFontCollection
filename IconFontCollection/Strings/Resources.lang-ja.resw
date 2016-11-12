@@ -238,7 +238,7 @@
     <value>モバイルでも利用可能ですが、ウィンドウの幅もしくは高さが480epx未満の時、上図のパネルが非表示になります。</value>
   </data>
   <data name="GuideMobileUsing3.Text" xml:space="preserve">
-    <value>（表示したい場合、「Continuum for phone」を利用し、外部モニターに本アプリのウィンドウを表示してください。）</value>
+    <value>（表示したい場合、"Continuum for phone"を利用し、外部モニターに本アプリのウィンドウを表示してください。）</value>
   </data>
   <data name="GuideNavigation.Text" xml:space="preserve">
     <value>左上にあるハンバーガーボタンを押すと、ナビゲーションメニューを開きます。</value>
