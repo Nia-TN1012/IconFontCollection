@@ -226,7 +226,7 @@
     <value>Lorsque vous appuyez sur le bouton de la marque d'étoile dans le coin en bas à droite de l'élément, puis l'enregistrement et l'annulation de la IcônePolice aux favoris.</value>
   </data>
   <data name="GuideFavoritesSummary.Text" xml:space="preserve">
-    <value>Dans cette application, a la capacité d'enregistrer l'IcônePolice fréquemment utilisé en tant que favori.</value>
+    <value>Cette application a pour fonction d'enregistrer les IcônePolice fréquemment utilisés comme favoris.</value>
   </data>
   <data name="GuideMobileUsing.Text" xml:space="preserve">
     <value>Lors de l'appareil mobile</value>

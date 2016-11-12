@@ -226,7 +226,7 @@
     <value>Quando si preme il pulsante del marchio stella nell'angolo in basso a destra della voce, e quindi la registrazione e la cancellazione del IconFont ai favoriti.</value>
   </data>
   <data name="GuideFavoritesSummary.Text" xml:space="preserve">
-    <value>In questa app, ha la capacità di registrare l'IconaFont utilizzati di frequente come preferito.</value>
+    <value>Questa applicazione ha una funzione per registrare IconaFonts utilizzati di frequente come preferiti.</value>
   </data>
   <data name="GuideMobileUsing.Text" xml:space="preserve">
     <value>Quando si utilizzano dispositivi mobili</value>

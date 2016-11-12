@@ -226,7 +226,7 @@
     <value>When you press the button of the star mark in the right-bottom corner of the item, and then registration and cancellation the IconFont to favorites.</value>
   </data>
   <data name="GuideFavoritesSummary.Text" xml:space="preserve">
-    <value>In this app, has the ability to register the frequently used IconFont as a favorite.</value>
+    <value>This app has a function to register frequently used IconFonts as favorites.</value>
   </data>
   <data name="GuideMobileUsing.Text" xml:space="preserve">
     <value>When using mobile device</value>

@@ -226,7 +226,7 @@
     <value>Wenn Sie die Taste der Sternmarke in der rechten unteren Ecke des Elements drücken und dann Registrierung und Streichung der SymbolSchrift zu Favoriten.</value>
   </data>
   <data name="GuideFavoritesSummary.Text" xml:space="preserve">
-    <value>In dieser Anwendung hat es die Fähigkeit, die häufig verwendete SymbolSchriftart als Favorit zu registrieren.</value>
+    <value>Diese Anwendung hat es die Funktion, die häufig verwendete SymbolSchriftart als Favorit zu registrieren.</value>
   </data>
   <data name="GuideMobileUsing.Text" xml:space="preserve">
     <value>Wenn Sie mit einem mobilen Endgerät</value>
