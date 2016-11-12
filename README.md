@@ -9,7 +9,7 @@ IconFont Collection displays a list of icon fonts for development of UWP Applica
 |||
 |---|---|
 |Application name|IconFont Collection|
-|Version|1.1.2|
+|Version|1.1.1|
 |Developer|Nia Tomonaka (@nia_tn1012)|
 |Released day|October 23, 2016|
 |Last updated|October 23, 2016|
