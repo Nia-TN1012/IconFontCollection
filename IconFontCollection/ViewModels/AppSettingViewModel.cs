@@ -60,10 +60,10 @@ namespace IconFontCollection {
 		///		Creates a new instance of the <see cref="AppSettingViewModel"/> class.
 		/// </summary>
 		public AppSettingViewModel() {
-			// Gets the Model from the App object.
+			// Gets the model instance from the App object.
 			model = ( App.Current as App )?.Model;
 			if( model == null ) {
-				throw new Exception( $"Failed to get reference of Model's instance on {GetType().ToString()}" );
+				throw new Exception( $"Failed to get reference of model instance on the {GetType().ToString()} class." );
 			}
 
 			model.PropertyChanged +=
@@ -199,7 +199,7 @@ namespace IconFontCollection {
 			public event EventHandler CanExecuteChanged;
 
 			/// <summary>
-			///		Run the command to restore the favorites from local.
+			///		Runs the command to restore the favorites from local.
 			/// </summary>
 			/// <param name="parameter">Parameter ( Not using )</param>
 			public void Execute( object parameter ) {

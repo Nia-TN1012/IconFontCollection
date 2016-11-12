@@ -42,7 +42,7 @@ namespace IconFontCollection {
 	public class IconFontCollectionModel : INotifyPropertyChanged {
 
 		/// <summary>
-		///		Represents the folder of local.
+		///		Represents the application's local folder.
 		/// </summary>
 		private static readonly StorageFolder localFolder = ApplicationData.Current.LocalFolder;
 
@@ -100,7 +100,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Save registered favorite list to local file.
+		///		Saves the registered favorite list to local file.
 		/// </summary>
 		public async Task SaveFavoriteList() {
 			try {
@@ -116,7 +116,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Wait until all file I/O completion.
+		///		Waits until all file I/O completion.
 		/// </summary>
 		public async Task WaitFileIOAsync() {
 			using( await locker.LockAsync() ) {
@@ -125,7 +125,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Clear all registered favorite IconFonts.
+		///		Clears all registered favorite IconFonts.
 		/// </summary>
 		public void ClearAllFavorites() {
 			foreach( var item in Items ) {
@@ -134,7 +134,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Restore the favorites from local.
+		///		Restores the favorites from local.
 		/// </summary>
 		public void RestoreLocalFavorites() {
 			ClearAllFavorites();

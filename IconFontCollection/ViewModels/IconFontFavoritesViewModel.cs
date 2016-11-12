@@ -37,7 +37,7 @@ namespace IconFontCollection {
 	class IconFontFavoritesViewModel : IconFontViewModelBase {
 
 		/// <summary>
-		///		Get the sequence that contains the favorite IconFonts.
+		///		Gets the sequence that contains the favorite IconFonts.
 		/// </summary>
 		public IEnumerable<IconFontItem> Items =>
 			model.Items.Values.Where( _ => _.IsFavorite );

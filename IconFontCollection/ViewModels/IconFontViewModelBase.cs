@@ -47,10 +47,10 @@ namespace IconFontCollection {
 		///		Creates new instance of the <see cref="IconFontCollectionModel"/> class.
 		/// </summary>
 		public IconFontViewModelBase() {
-			// Gets the Model from the App object.
+			// Gets the model instance from the App object.
 			model = ( App.Current as App )?.Model;
 			if( model == null ) {
-				throw new Exception( $"Failed to get reference of Model's instance on {GetType().ToString()}" );
+				throw new Exception( $"Failed to get reference of model instance on the {GetType().ToString()} class." );
 			}
 
 			model.PropertyChanged +=
@@ -117,7 +117,7 @@ namespace IconFontCollection {
 			public event EventHandler CanExecuteChanged;
 
 			/// <summary>
-			///		Run the command to set the favorite registration and cancellation of the corresponding item.
+			///		Runs the command to set the favorite registration and cancellation of the corresponding item.
 			/// </summary>
 			/// <param name="parameter">CodeKey</param>
 			public void Execute( object parameter ) {
