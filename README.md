@@ -6,7 +6,7 @@ IconFont Collection displays a list of icon fonts for development of UWP Applica
 
 ## Application summary
 
-|||
+|Summary||
 |--|--|
 |Application name|IconFont Collection|
 |Version|1.1.2|
