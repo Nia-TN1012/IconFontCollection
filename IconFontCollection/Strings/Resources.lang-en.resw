@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AboutAppLabel.Text" xml:space="preserve">
-    <value>About App</value>
+    <value>About Application</value>
   </data>
   <data name="AboutDeveloper.Text" xml:space="preserve">
     <value>Developer</value>
@@ -133,7 +133,7 @@
     <value>Website</value>
   </data>
   <data name="AppDescription.Text" xml:space="preserve">
-    <value>IconFont Collection is App that displays a list of icon fonts (Segoe MDL2 Assets) for development of UWP App.</value>
+    <value>IconFont Collection is Application that displays a list of icon fonts (Segoe MDL2 Assets) for development of UWP Application.</value>
   </data>
   <data name="AppLicence.Text" xml:space="preserve">
     <value>IconFont Collection is released under an open source (BSD Licence (2-clause)).</value>
@@ -154,16 +154,16 @@
     <value>Character Code</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButton.Content" xml:space="preserve">
-    <value>Clear all registered favorite</value>
+    <value>Clear all registered favorites</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButtonDescription.Text" xml:space="preserve">
     <value>Clears all registered favorite IconFonts.</value>
   </data>
   <data name="ClearAllRegisteredFavoriteButtonLabel.Text" xml:space="preserve">
-    <value>Clear all registered favorite</value>
+    <value>Clear all registered favorites</value>
   </data>
   <data name="ClearAllRegisteredFavoriteNote.Text" xml:space="preserve">
-    <value>To save the changes, please close the app.</value>
+    <value>To save the changes, please close the application.</value>
   </data>
   <data name="CollectionPivotItem.Header" xml:space="preserve">
     <value>Views Collection</value>
@@ -211,7 +211,7 @@
     <value>For XAML</value>
   </data>
   <data name="GuideCollection.Text" xml:space="preserve">
-    <value>When the app start, navigate to Collection page that displays the list of IconFonts.</value>
+    <value>When the application start, navigate to Collection page that displays the list of IconFonts.</value>
   </data>
   <data name="GuideCollectionPanel.Text" xml:space="preserve">
     <value>The panel below the list displays the icon and the character code of the selected IconFont.</value>
@@ -226,25 +226,25 @@
     <value>When you press the button of the star mark in the right-bottom corner of the item, and then registration and cancellation the IconFont to favorites.</value>
   </data>
   <data name="GuideFavoritesSummary.Text" xml:space="preserve">
-    <value>This app has a function to register frequently used IconFonts as favorites.</value>
+    <value>This application has a function to register frequently used IconFonts as favorites.</value>
   </data>
   <data name="GuideMobileUsing.Text" xml:space="preserve">
     <value>When using mobile device</value>
   </data>
   <data name="GuideMobileUsing1.Text" xml:space="preserve">
-    <value>This app is a tool for developing UWP applications, so it is optimized for PC.</value>
+    <value>This application is a tool for developing UWP applications, so it is optimized for PC.</value>
   </data>
   <data name="GuideMobileUsing2.Text" xml:space="preserve">
     <value>Although it can be used on mobile device, the panel in the above figure will be hidden when the width or height of the window is less than 480 epx.</value>
   </data>
   <data name="GuideMobileUsing3.Text" xml:space="preserve">
-    <value>( If you want to display it, please use "Continuum for phone" on your mobile device and display the window of this app on the external monitor. )</value>
+    <value>( If you want to display it, please use "Continuum for phone" on your mobile device and display the window of this application on the external monitor. )</value>
   </data>
   <data name="GuideNavigation.Text" xml:space="preserve">
     <value>When you press the hamburger button on the left-top, opens the navigation menu.</value>
   </data>
   <data name="GuideSettings.Text" xml:space="preserve">
-    <value>In the Settings page, or made the settings, or to view information about the app.</value>
+    <value>In the Settings page, or made the settings, or to view information about the application.</value>
   </data>
   <data name="IconFontCollectionViewPage.Tag" xml:space="preserve">
     <value>IconFont Collection</value>
@@ -277,7 +277,7 @@
     <value>Restore the favorites from local</value>
   </data>
   <data name="RestoreLocalFavoritesButtonDescription.Text" xml:space="preserve">
-    <value>Restores the favorites from local loaded in starting app.</value>
+    <value>Restores the favorites from local loaded in starting application.</value>
   </data>
   <data name="RestoreLocalFavoritesButtonLabel.Text" xml:space="preserve">
     <value>Restore the favorites from local</value>
@@ -295,7 +295,7 @@
     <value>Settings</value>
   </data>
   <data name="SwitchAppSettingButtonDescription.Text" xml:space="preserve">
-    <value>Open the app settings page.</value>
+    <value>Open the application settings page.</value>
   </data>
   <data name="SwitchAppSettingButtonLabel.Text" xml:space="preserve">
     <value>Settings</value>

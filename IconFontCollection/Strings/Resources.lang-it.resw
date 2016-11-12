@@ -289,7 +289,7 @@
     <value>Impostazioni</value>
   </data>
   <data name="SettingsPivotItem.Header" xml:space="preserve">
-    <value>Impostazione app</value>
+    <value>Impostazione applicazione</value>
   </data>
   <data name="SwitchAppSettingButton.Content" xml:space="preserve">
     <value>Impostazioni</value>
