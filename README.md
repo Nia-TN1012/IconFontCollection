@@ -12,7 +12,7 @@ IconFont Collection displays a list of icon fonts for development of UWP Applica
 |Version|1.1.1|
 |Developer|Nia Tomonaka (@nia_tn1012)|
 |Released day|October 23, 2016|
-|Last updated|October 23, 2016|
+|Last updated day|October 23, 2016|
 |Available on|Windows 10 / Windows 10 Mobile (Build 10240 or later)|
 |Using capabilities|Nothing|
 |Licence|BSD Licence (2-clause)|
