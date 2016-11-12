@@ -244,7 +244,7 @@
     <value>When you press the hamburger button on the left-top, opens the navigation menu.</value>
   </data>
   <data name="GuideSettings.Text" xml:space="preserve">
-    <value>In the Settings page, or made the settings, or to view information about the application.</value>
+    <value>On the setting page, you set up the application, and displays information about the application.</value>
   </data>
   <data name="IconFontCollectionViewPage.Tag" xml:space="preserve">
     <value>IconFont Collection</value>
