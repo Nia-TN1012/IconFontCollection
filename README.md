@@ -1,8 +1,12 @@
 # IconFontCollection
 
+![app_promote.png](https://raw.githubusercontent.com/Nia-TN1012/IconFontCollection/master/Image/app_promote.png)
+
 **Please to accompany UWP applications development!**
 
 IconFont Collection displays a list of icon fonts for development of UWP Applications.
+
+![home.png](https://raw.githubusercontent.com/Nia-TN1012/IconFontCollection/master/Image/en-US/home.png)
 
 ## Application summary
 
@@ -34,10 +38,14 @@ The application can be downloaded from the Windows store
 
 When launching the application, displays a list of IconFonts.
 
+![home.png](https://raw.githubusercontent.com/Nia-TN1012/IconFontCollection/master/Image/en-US/home.png)
+
 In the panel below the IconFonts list,
 the icon of the selected icon font and the character code are displayed.
 Press the "Copy to clipboard" button on the right side of each text box
 to copy that string to the clipboard.
+
+![icon_character_code.png](https://raw.githubusercontent.com/Nia-TN1012/IconFontCollection/master/Image/en-US/icon_character_code.png)
 
 >**\*When using mobile device**
 >
@@ -77,14 +85,20 @@ char forCodeBehind = '\uE001';
 
 This application has a function to register frequently used IconFonts as favorites.
 
+![set_favorite.png](https://raw.githubusercontent.com/Nia-TN1012/IconFontCollection/master/Image/set_favorite.png)
+
 When you press the button of the star mark in the right-bottom corner of the item,
 and then registration and cancellation the IconFont to favorites.
 
 A list of IconFonts registered as favorites can be viewed on the Favorites page.
 
+![favorite.png](https://raw.githubusercontent.com/Nia-TN1012/IconFontCollection/master/Image/en-US/favorite.png)
+
 ## Navigation menu
 
 When you press the hamburger button on the left-top, opens the navigation menu.
+
+![navigation.png](https://raw.githubusercontent.com/Nia-TN1012/IconFontCollection/master/Image/en-US/navigation.png)
 
 |||
 |---|---|
@@ -100,10 +114,14 @@ scrolls to the first item.
 
 Displays the IconFont Collection's user manual.
 
+![userguide.png](https://raw.githubusercontent.com/Nia-TN1012/IconFontCollection/master/Image/en-US/userguide.png)
+
 ## Settings
 
 On the setting page, you set up the application,
 and displays information about the application.
+
+![settings.png](https://raw.githubusercontent.com/Nia-TN1012/IconFontCollection/master/Image/en-US/settings.png)
 
 |||
 |---|---|
