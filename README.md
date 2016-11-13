@@ -81,7 +81,7 @@ string icon = char.ConvertFromUtf32( originalValue );
 char forCodeBehind = '\uE001';
 ```
 
-## View favorites
+## Views favorites
 
 This application has a function to register frequently used IconFonts as favorites.
 
