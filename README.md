@@ -13,12 +13,13 @@ IconFont Collection displays a list of icon fonts for development of UWP Applica
 |||
 |---|---|
 |Application name|IconFont Collection|
-|Version|1.1.1|
+|Version|1.2.2|
 |Developer|Nia Tomonaka (@nia_tn1012)|
 |Released day|October 23, 2016|
-|Last updated day|October 23, 2016|
+|Last updated day|November 15, 2016|
 |Available on|Windows 10 / Windows 10 Mobile (Build 10240 or later)|
 |Using capabilities|Nothing|
+|Language supported|Japanese (ja, ja-JP), English (en, en-US), German (de, de-DE), French (fr, fr-FR), Italian (it, it-IT), Chinese (zh-CN, zh-TW)|
 |Licence|BSD Licence (2-clause)|
 |Blog article|[https://chronoir.net/iconfont-collection/](https://chronoir.net/iconfont-collection/)|
 |GitHub|[https://github.com/Nia-TN1012/IconFontCollection](https://github.com/Nia-TN1012/IconFontCollection)|
@@ -126,6 +127,7 @@ and displays information about the application.
 |||
 |---|---|
 |Clear all registered favorites|Clears all registered favorite IconFonts.|
+|Restore the favorites from local|Restores the favorites from local in starting application.|
 
 # About IconFont Collection
 
@@ -141,4 +143,5 @@ Please be understanding of this beforehand.
 
 # Change log
 
-* 2016/10/23 : Released ver. 1.1.1 (first edition).
+* 2016/10/23 : Released Ver. 1.1.1 (First edition).
+* 2016/11/15 : Released Ver. 1.2.2
