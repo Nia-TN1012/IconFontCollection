@@ -4,7 +4,7 @@
 *	@brief Provides the functions.
 *
 *	@par Version
-*	1.1.0
+*	1.2.4
 *	@par Author
 *	Nia Tomonaka
 *	@par Copyright
@@ -12,7 +12,7 @@
 *	@par Created date
 *	2016/10/23
 *	@par Last update date
-*	2016/10/23
+*	2016/12/07
 *	@par Licence
 *	BSD Licence（ 2-caluse ）
 *	@par Contact

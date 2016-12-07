@@ -4,7 +4,7 @@
 *	@brief Provides application-specific behavior to supplement the default Application class.
 *
 *	@par Version
-*	1.1.0
+*	1.2.4
 *	@par Author
 *	Nia Tomonaka
 *	@par Copyright
