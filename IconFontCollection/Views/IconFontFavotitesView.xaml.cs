@@ -71,6 +71,7 @@ namespace IconFontCollection {
 			if( e.NavigationMode == NavigationMode.Back ) {
 				var currentView = SystemNavigationManager.GetForCurrentView();
 				currentView.BackRequested -= Page_BackRequested;
+				iconFontFavoritesViewModel.UnsubscribeAllEvents();
 			}
 		}
 
@@ -99,7 +100,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Jump to the first item in the <see cref="GridView"/>.
+		///		Jumps to the first item in the <see cref="GridView"/>.
 		/// </summary>
 		public void GridViewJumpToFirstItem() {
 			if( IconFontCollectionGridView.Items?.Any() ?? false ) {

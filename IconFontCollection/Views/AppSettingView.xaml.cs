@@ -72,6 +72,7 @@ namespace IconFontCollection {
 			if( e.NavigationMode == NavigationMode.Back ) {
 				var currentView = SystemNavigationManager.GetForCurrentView();
 				currentView.BackRequested -= Page_BackRequested;
+				appSettingViewModel.UnsubscribeAllEvents();
 			}
 		}
 
@@ -86,7 +87,7 @@ namespace IconFontCollection {
 		}
 
 		/// <summary>
-		///		Invoke when the confirmation action has run.
+		///		Invoked when the confirmation action has run.
 		/// </summary>
 		private async void AppSettingViewModel_ComfirmationActionRun( object sender, ComfirmmationActionRunEventArgs e ) {
 			var resource = ResourceLoader.GetForCurrentView();
