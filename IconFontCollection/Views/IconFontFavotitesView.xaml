@@ -17,7 +17,7 @@
 	</Page.Resources>
 
 	<Page.DataContext>
-		<local:IconFontFavoritesViewModel x:Name="iconFontFavoritesViewModel"/>
+		<local:IconFontFavoritesViewModel/>
 	</Page.DataContext>
 
 	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">

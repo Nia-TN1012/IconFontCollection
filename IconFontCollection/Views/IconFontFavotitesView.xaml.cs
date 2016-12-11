@@ -71,7 +71,6 @@ namespace IconFontCollection {
 			if( e.NavigationMode == NavigationMode.Back ) {
 				var currentView = SystemNavigationManager.GetForCurrentView();
 				currentView.BackRequested -= Page_BackRequested;
-				iconFontFavoritesViewModel.UnsubscribeAllEvents();
 			}
 		}
 

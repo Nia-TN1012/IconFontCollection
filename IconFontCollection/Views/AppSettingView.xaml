@@ -9,8 +9,7 @@
     mc:Ignorable="d">
 
 	<Page.DataContext>
-		<local:AppSettingViewModel x:Name="appSettingViewModel"
-								   ComfirmationActionRun="{x:Bind AppSettingViewModel_ComfirmationActionRun}"/>
+		<local:AppSettingViewModel ComfirmationActionRun="{x:Bind AppSettingViewModel_ComfirmationActionRun}"/>
 	</Page.DataContext>
 
 	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">

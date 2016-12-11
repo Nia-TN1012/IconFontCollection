@@ -66,22 +66,18 @@ namespace IconFontCollection {
 				throw new Exception( $"Failed to get reference of model instance on the {GetType().ToString()} class." );
 			}
 
-			model.PropertyChanged += Model_PropertyChanged;
-
 			packageInfo = Package.Current.Id;
 		}
 
 		/// <summary>
-		///		Notifies when the model's property chenged.
-		/// </summary>
-		private void Model_PropertyChanged( object sender, PropertyChangedEventArgs e ) =>
-			PropertyChanged?.Invoke( sender, e );
-
-		/// <summary>
 		///		Release all events of this class already registered in <see cref="IconFontCollectionModel"/>'s event handler.
 		/// </summary>
-		public void UnsubscribeAllEvents() {
-			model.PropertyChanged -= Model_PropertyChanged;
+		//public void UnsubscribeAllEvents() {
+			
+		//}
+
+		~AppSettingViewModel() {
+			System.Diagnostics.Debug.WriteLine( "APVM bye." );
 		}
 
 		/// <summary>
