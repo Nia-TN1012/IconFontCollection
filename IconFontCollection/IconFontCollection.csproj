@@ -11,7 +11,7 @@
     <AssemblyName>IconFontCollection</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -20,7 +20,8 @@
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
-    <PackageCertificateThumbprint>313A02D9512BB68BDF01895CC02887BE797E7240</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>44F2DC8A36CD3D6561C59CE5354229815F5145A7</PackageCertificateThumbprint>
+    <RuntimeIdentifiers>win10-arm;win10-arm-aot;win10-x86;win10-x86-aot;win10-x64;win10-x64-aot</RuntimeIdentifiers>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -94,7 +95,6 @@
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <None Include="IconFontCollection_StoreKey.pfx" />
-    <None Include="project.json" />
     <PRIResource Include="Strings\Resources.lang-zh-TW.resw" />
     <PRIResource Include="Strings\Resources.lang-it.resw" />
     <PRIResource Include="Strings\Resources.lang-fr.resw" />
@@ -226,7 +226,11 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.0.5</Version>
+    </PackageReference>
+  </ItemGroup>
   <ItemGroup>
     <Page Include="Views\AppSettingView.xaml">
       <Generator>MSBuild:Compile</Generator>

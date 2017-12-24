@@ -101,14 +101,13 @@ namespace IconFontCollection {
 		///		Invoked when user press <see cref="SwitchIconFontFavoritesViewButton"/> button.
 		/// </summary>
 		private void SwitchIconFontFavoritesViewButton_Click( object sender, RoutedEventArgs e ) {
-			var iconFontFavoritesView = IconFontPageContentFrame.Content as IconFontFavotitesView;
-			if( iconFontFavoritesView != null ) {
-				iconFontFavoritesView.GridViewJumpToFirstItem();
-			}
-			else {
-				IconFontPageContentFrame.Navigate( typeof( IconFontFavotitesView ) );
-			}
-			HamburgerButton.IsChecked = false;
+            if( IconFontPageContentFrame.Content is IconFontFavotitesView iconFontFavoritesView ) {
+                iconFontFavoritesView.GridViewJumpToFirstItem();
+            }
+            else {
+                IconFontPageContentFrame.Navigate( typeof( IconFontFavotitesView ) );
+            }
+            HamburgerButton.IsChecked = false;
 		}
 
 		/// <summary>
