@@ -17,7 +17,7 @@ IconFont Collection displays a list of icon fonts for development of UWP Applica
 |Developer|Nia Tomonaka (@nia_tn1012)|
 |Released day|October 23, 2016|
 |Last updated day|November 15, 2016|
-|Available on|Windows 10 / Windows 10 Mobile (Build 10240 or later)|
+|Available on|Windows 11 / Windows 10 / Windows 10 Mobile (Build 10240 or later)|
 |Using capabilities|Nothing|
 |Language supported|Japanese (ja, ja-JP), English (en, en-US), German (de, de-DE), French (fr, fr-FR), Italian (it, it-IT), Chinese (zh-CN, zh-TW)|
 |Licence|BSD Licence (2-clause)|
