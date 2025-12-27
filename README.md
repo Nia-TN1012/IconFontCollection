@@ -1,6 +1,6 @@
 # IMPORTANT NOTICE
 
-**We regret to inform you that IconFontCollection will no longer be available in the store after January 2026.**
+**We regret to inform you that IconFontCollection will no longer be available in the store after January 2026.**  
 **Thank you so much.**
 
 # IconFontCollection
