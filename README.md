@@ -26,7 +26,7 @@ IconFont Collection displays a list of icon fonts for development of UWP Applica
 |Using capabilities|Nothing|
 |Language supported|Japanese (ja, ja-JP), English (en, en-US), German (de, de-DE), French (fr, fr-FR), Italian (it, it-IT), Chinese (zh-CN, zh-TW)|
 |Licence|BSD Licence (2-clause)|
-|Blog article|[https://chronoir.net/iconfont-collection/](https://chronoir.net/iconfont-collection/)|
+|Blog article|[https://tech.nia-tn1012.com/iconfont-collection/](https://tech.nia-tn1012.com/iconfont-collection/)|
 |GitHub|[https://github.com/Nia-TN1012/IconFontCollection](https://github.com/Nia-TN1012/IconFontCollection)|
 |Programing languages / Frameworks|C# / XAML / .NET Core / .NET Framework / Windows 10 SDK|
 |Libraries|Nothing|
@@ -136,13 +136,13 @@ and displays information about the application.
 
 # About IconFont Collection
 
-The copyright of IconFont Collection is possessed by Chronoir.net.
+The copyright of IconFont Collection is possessed by Nia T.N. Tech Lab (former: Chronoir.net).
 
-    (C)2016 Chronoir.net
+    (C)2016 Nia T.N. Tech Lab / Chronoir.net
 
 ## Legal Disclaimer
 
-The author and Chronoir.net accept no any responsibility for any obstacles or damages
+The author and Nia T.N. Tech Lab accept no any responsibility for any obstacles or damages
 caused by using this application.
 Please be understanding of this beforehand.
 
@@ -150,3 +150,4 @@ Please be understanding of this beforehand.
 
 * 2016/10/23 : Released Ver. 1.1.1 (First edition).
 * 2016/11/15 : Released Ver. 1.2.2
+* 2025/12/27 : Add an important notice. Update due to blog site name and URL change. 
